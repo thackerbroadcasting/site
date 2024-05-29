@@ -4,7 +4,7 @@ export const formatter: Intl.DateTimeFormat = new Intl.DateTimeFormat(I18N?.lang
   year: 'numeric',
   month: 'short',
   day: 'numeric',
-  timeZone: 'UTC',
+  timeZone: 'MST',
 });
 
 export const getFormattedDate = (date: Date): string => (date ? formatter.format(date) : '');

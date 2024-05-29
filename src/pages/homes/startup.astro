@@ -9,12 +9,13 @@ import Features from '~/components/widgets/Features.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Brands from '~/components/widgets/Brands.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+//import Brands from '~/components/widgets/Brands.astro';
 
-import { YouTube } from 'astro-embed';
+//import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Startup Landing Page',
+  title: 'Thacker Broadcasting - Broadcast Beyond',
 };
 ---
 
@@ -22,37 +23,34 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Startup Web Demo"
+    tagline="Thacker Broadcasting"
     actions={[
       {
         variant: 'primary',
-        target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
+        target: '',
+        text: 'Get started',
+        href: '/contact',
+        icon: 'tabler:messages',
       },
       { text: 'Learn more', href: '#features' },
     ]}
   >
     <Fragment slot="title">
-      Improve <span class="hidden sm:inline">the online presence of</span> your <span
-        class="text-accent dark:text-white highlight">Startup</span
-      > with Astrowind templates
+      Broadcast Beyond what you thought possible with <span class="text-accent dark:text-white highlight">Thacker Broadcasting</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Step into the spotlight with <span class="font-semibold">Astrowind</span> templates, your pathway to fortifying your
-      startup's digital footprint, fostering credibility, and expanding your reach.
+      High quality broadcasting solutions with <span class="font-semibold">faster</span> delivery, <span class="font-semibold">frequent</span> updates, unbeatable <span class="font-semibold">flexibility</span>, and a much <span class="font-semibold">cheaper</span> price that fits you and your business.
     </Fragment>
 
     <Fragment slot="image">
-      <YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
+      <!--<YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
       <style is:inline>
         lite-youtube {
           margin: 0 auto;
           max-width: 100%;
         }
-      </style>
+      </style>-->
     </Fragment>
   </Hero>
 
@@ -60,7 +58,7 @@ const metadata = {
 
   <Features2
     title="About us"
-    subtitle="We believe in the magic of turning dreams into stunning realities. Founded by passionate developers with a shared vision, we set out to simplify the website creation process. Our templates bring together the innovation of Astro 4.0 and the versatility of Tailwind CSS, enabling you to express your unique brand identity like never before."
+    subtitle="We know the music industry is complex and constantly changing. With us, you don't have to worry about that. All you have to worry about is an internet connection and you're already halfway to having your own station. Customize it with custom ads or none at all, change genres or entire playlists on the fly, allow customer interactions, and so much more."
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -70,21 +68,21 @@ const metadata = {
   <!-- Stats Widget ****************** -->
 
   <Stats
-    title="Discover the impressive impact of Astrowind"
-    subtitle="The numbers below reflect the trust our users have placed in us and the remarkable outcomes we've helped them achieve."
+    title="Fast Track Customer Entertainment"
+    subtitle="Your customers move quickly. So do we. Music is rotated, events are curated, experiences are created, now faster than ever before."
     stats={[
-      { title: 'Downloads', amount: '182K' },
-      { title: 'Websites Launched', amount: '87' },
-      { title: 'User Ratings', amount: '4.8' },
-      { title: 'Satisfied Clients', amount: '116K' },
+      { title: 'Consumer Businesses', amount: '8' },
+      { title: 'faster than traditional playout systems', amount: '4x' },
+      { title: 'cheaper than competitors', amount: '40%' },
+      { title: 'Satisfied Listeners', amount: '1.8k' },
     ]}
   />
 
   <!-- Brands Widget ****************** -->
 
-  <Brands
+  <!--<Brands
     title="Partnerships & Collaborations"
-    subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
+    subtitle="The core of Thacker Broadcasting lies with our clients and their customers. We work with a variety of different businesses to curate experiences that their customers and employees love."
     icons={[]}
     images={[
       {
@@ -125,31 +123,33 @@ const metadata = {
         alt: 'Yahoo',
       },
     ]}
-  />
+  />-->
 
   <!-- Features2 Widget ************** -->
 
   <Features2
     title="What services do we provide?"
-    subtitle="We offer a wide range of website templates that suit various industries and purposes such as business, portfolio, e-commerce, blog, etc."
+    subtitle="We offer a targeted range of solutions that can be tailored to single locations or expanded across the globe. Small-business or large corporation, we have the capabilities and experience to create experiences your customers and employees will love."
     items={[
       {
-        title: 'Installation Instructions',
+        title: 'Identical Servicings',
         description:
-          'Offer clear instructions on how to download the purchased templates and install them on various website platforms or content management systems.',
-        icon: 'flat-color-icons:document',
+          //'Local businesses are at the heart of every place on earth, and every one is different. Our flexibility allows for small businesses to customize as much or as little as they would like.',
+          'No matter the size of your business, our servicings are identical across all of our plans.',
+        icon: 'flat-color-icons:voice-presentation', //'flat-color-icons:shop',
       },
       {
-        title: 'Demo and Previews',
+        title: 'Flexible and Customizable',
         description:
-          'Provide interactive demos and previews that allow customers to see how their chosen template will look and function before making a purchase.',
-        icon: 'flat-color-icons:template',
+          'We adapt to what you know works best, not what we *think* works best. Flexible enough to handle thousands of listeners at one time, customizable to the degree you feel comfortable.',
+        //'Just like small businesses, enterprises are different. Whatever the use-case, we are able to scale to support whatever your use-case for us may be. Worldwide, geographical, or concentration at a local level, we can support whatever you throw at us.',
+        icon: 'flat-color-icons:electrical-sensor',
       },
       {
-        title: 'Technical Support',
+        title: 'Device Agnostic',
         description:
-          'Providing customer support for any technical issues related to the templates or their implementation.',
-        icon: 'flat-color-icons:voice-presentation',
+          'Any device capable of an internet connection can listen in to our services, from a tiny Raspberry Pi to a full-fledge server, laptop, tablet, or smartphone, your customers are able to listen and (if wanted) interact with your music offerings.',
+        icon: 'flat-color-icons:multiple-devices',
       },
     ]}
   >
@@ -162,81 +162,119 @@ const metadata = {
 
   <Features
     id="features"
-    title="Main features of our templates"
-    subtitle="Possess several key characteristics to effectively cater to the needs of startups and entrepreneurs."
+    title="Main features of our services"
+    subtitle="There's a lot that goes in to our offerings. What are the ones that matter most to you?"
     columns={3}
     items={[
       {
-        title: 'Modern and Professional Design',
+        title: 'Scheduled. 24/7.',
         description:
-          'Have a contemporary design that reflects current design trends and gives a professional impression.',
-        icon: 'tabler:artboard',
-      },
-      {
-        title: 'Responsive and Mobile-Friendly',
-        description: 'Adapt seamlessly to different screen sizes and devices to ensure a consistent experience.',
-        icon: 'tabler:picture-in-picture',
+          'Always be listening or only for thirty minutes once a week. You dictate the schedule.',
+        icon: 'tabler:calendar-event',
       },
       {
         title: 'Customizability',
+        description: 'Each client is unique, and so is the music you want. Remove overplayed songs from the latest trends, add in songs that take you back to your high school days. Whatever you can think of, our systems can adapt to make your music unique to you.',
+        icon: 'tabler:adjustments',
+      },
+      {
+        title: 'Resilient',
         description:
-          'Easily customizable, allowing users to adapt the design, colors, typography, and content to match their brand identity.',
-        icon: 'tabler:adjustments-horizontal',
+          'Modern hardware and software combined with experience provide an experience like never before. Using provides like Microsoft Azure, Amazon Web Services, and Digital Ocean allow us to provide rock-solid resiliency no matter the situation.',
+        icon: 'tabler:cloud-computing',
       },
       {
-        title: 'Fast Loading Times',
-        description: 'Optimized for speed to ensure a smooth user experience and favorable search engine rankings.',
-        icon: 'tabler:rocket',
+        title: 'Music. Fast.',
+        description: 'Flip your classy restaurant into a dance floor with a few clicks. Our systems adapt and respond to your demands.',
+        icon: 'tabler:plane',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Always Updated',
         description:
-          'Incorporate SEO best practices in template structure and code to improve visibility in search engine results.',
-        icon: 'tabler:arrows-right-left',
+          'We keep up with the music industry so you do not have to. New music is added every week so you are always up-to-date. Of course, your customizability is always honored. Plus, our hardware and software is kept up-to-date so your experience is always flawless.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Compatibility',
-        description: 'The templates work seamlessly across various content management systems and website builders.',
-        icon: 'tabler:plug-connected',
+        title: 'Your Choice',
+        description: 'You always have a choice when it comes to your music. Censored or uncensored? Perhaps a mix of both at certain times? Specific genres, artists, albums, or even songs? Everything is up to you. Or turn it over to us for a stress-free experience that you can adjust at anytime.',
+        icon: 'tabler:wand',
       },
     ]}
   />
 
-  <!-- FAQs Widget ******************* -->
+  <!-- Pricing Widget ******************* -->
 
-  <FAQs
+  <Pricing
+    title="Flexible pricing plans"
+    prices={[
+      {
+        title: 'Supported Ads',
+        subtitle: 'Best option for small businesses. Uses our ad network.',
+        price: 29,
+        period: '/ month',
+        callToAction: {
+          target: '',
+          text: 'Get Started with Supported Ads',
+          href: '#',
+        },
+      },
+      {
+        title: 'Ad-Free',
+        subtitle: 'Best for those that want no ads.',
+        price: 39,
+        period: '/ Month',
+        callToAction: {
+          target: '',
+          text: 'Upgrade to Controlled Ads',
+          href: '#',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'popular',
+      },
+      {
+        title: 'Controlled Ads',
+        subtitle: 'Best for large enterprises and corporations that want full control over ads.',
+        price: 49,
+        period: '/ Month',
+        callToAction: {
+          target: '',
+          text: 'Unlock Enterprise Features',
+          href: '#',
+        },
+      },
+    ]}
+  />
+
+    <!-- FAQs Widget ******************* -->
+
+    <FAQs
     title="Frequently Asked Questions"
     items={[
       {
-        title: 'What are landing page templates?',
+        title: 'What is the difference between the plans?',
         description:
-          'Landing page templates are pre-designed web page layouts that are specifically created to serve as a foundation for building effective landing pages. These templates are designed to capture the attention of visitors and guide them towards a specific action or goal, such as signing up for a newsletter, making a purchase, or downloading a resource.',
+          'Our networks differ in the ad offerings for each network. We believe that customers should have the option to control what their customers are advertised. Of course, you are more than welcome to use our ad network if it is the more cost-effective measure for your business. The "Supported Ads" tier uses our ad network, where "Controlled Ads" allows for clients to customize ads to their liking, whether that be using our network with some tweaks, using their recorded own ads, or their own ad network.',
       },
       {
-        title: 'Why should I use a template?',
+        title: 'Can I update from Supported Ads to Ad-Free or Controlled Ads?',
         description:
-          'Some of the advantages are that they provide a ready-to-use structure,  saving you significant time. Are designed with user-friendliness in mind and provide a cost-effective alternative, saving you money while still delivering a quality result.',
+          'Yes! You can upgrade or downgrade to any of our offerings at any time. Simply reach out to our support team to conduct this transition.',
       },
       {
-        title: 'Can I preview templates before buying?',
+        title: 'What discounts are available for bulk orders?',
         description:
-          'Yes, the templates allow you to preview them before making a purchase. There is a "Demo" button associated with each template.',
+          'The "Controlled Ads" plan affords subscribers discounts upon their initial onboarding when they purchase 10 or more of our receivers.',
       },
       {
-        title: 'Do I need technical skills to use a template?',
+        title: 'What kind of customer support can I expect?',
         description:
-          'Advanced technical skills are not required to use a template, but having a basic understanding of web navigation and familiarity with using online tools can still be beneficial. If you have more specific customization needs, you might need to consult guides or reach out to customer support for assistance.',
+          'All customers receive dedicated email and chat support with response times matching what is agreed upon during onboarding. Typically, those on the "Controlled Ads" plan will receive faster response times due to the complexities that can be exist in larger organizations.',
       },
       {
-        title: 'Can I use the template on multiple websites?',
+        title: 'Do you offer services for large-scale companies, or geographically-separated businesses?',
         description:
-          'No, the template comes with a single-use license, meaning you can use the template on one website or project only. Using the template on additional websites would require purchasing additional licenses.',
-      },
-      {
-        title: 'What if I need help with customization?',
-        description:
-          "The templates provides a comprehensive step-by-step guide that walk you through the customization process. If you still have doubts, you can reach out to our customer support team. They can answer your questions, provide guidance on customization, and address any issues you're facing.",
-      },
+          'Yes. "Controlled Ads" members will usually have these services, which includes consultation, planning, and assistance in the transfer process. Contact us for more information on these services.',
+      }
     ]}
   >
     <Fragment slot="bg">
@@ -244,45 +282,27 @@ const metadata = {
     </Fragment>
   </FAQs>
 
+
   <!-- Features3 Widget ************** -->
 
   <Features3
     title="Let us know how we can help"
-    subtitle="We’re here to help and answer any question you might have."
-    columns={4}
+    subtitle="We're here to help and answer any question you might have."
+    columns={2}
     items={[
-      {
-        title: 'Phone',
-        icon: 'tabler:phone',
-        callToAction: {
-          target: '_blank',
-          text: 'Call us',
-          href: '/',
-          variant: 'link',
-        },
-      },
+      //{title: 'Phone',icon: 'tabler:phone',callToAction: {target: '_blank',text: 'Call us',href: '/',variant: 'link',},},
       {
         title: 'Email',
         icon: 'tabler:mail',
         callToAction: {
           target: '_blank',
           text: 'Write to us',
-          href: '/',
+          href: 'mailto:contact@thackerbroadcasting.com',
           variant: 'link',
         },
       },
       {
-        title: 'Chat with sales',
-        icon: 'tabler:message-circle',
-        callToAction: {
-          target: '_blank',
-          text: 'Start chatting',
-          href: '/',
-          variant: 'link',
-        },
-      },
-      {
-        title: 'Chat with support',
+        title: 'Chat with us',
         icon: 'tabler:message-circle',
         callToAction: {
           target: '_blank',
@@ -300,18 +320,17 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        target: '_blank',
-        text: 'Get templates',
-        href: 'https://github.com/onwidget/astrowind',
-        icon: 'tabler:download',
+        target: '',
+        text: 'Contact us',
+        href: '/contact',
+        icon: 'tabler:messages',
       },
     ]}
   >
-    <Fragment slot="title">Be a part of our vision</Fragment>
+    <Fragment slot="title">Let's Broadcast</Fragment>
 
     <Fragment slot="subtitle">
-      Discover a dynamic work environment, unparalleled growth opportunities, and the chance to make a meaningful
-      impact.
+      Explore our services, broadcast your message, advertise with us, or get more information about our offerings.
     </Fragment>
   </CallToAction>
 </Layout>

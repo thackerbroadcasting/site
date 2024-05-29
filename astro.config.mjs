@@ -9,6 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from '@playform/compress';
+import starlight from '@astrojs/starlight';
 
 import astrowind from './vendor/integration';
 
@@ -17,6 +18,7 @@ import {
   responsiveTablesRehypePlugin,
   lazyImagesRehypePlugin,
 } from './src/utils/frontmatter.mjs';
+import { astroExpressiveCode } from '@astrojs/starlight/expressive-code';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -32,22 +34,61 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     sitemap(),
+    astroExpressiveCode(),
     mdx(),
     icon({
       include: {
         tabler: ['*'],
         'flat-color-icons': [
-          'template',
+          'electrical-sensor',
+          'multiple-devices',
           'gallery',
           'approval',
-          'document',
           'advertising',
+          'shop',
+          'template',
+          'document',
           'currency-exchange',
           'voice-presentation',
           'business-contact',
           'database',
+          'businessman',
         ],
       },
+    }),
+
+    starlight({
+      title: 'Thacker Broadcasting Docs',
+      editLink: {
+        baseUrl: 'https://github.com/thackerbroadcasting/redesign2/edit/main/',
+      },
+      lastUpdated: true,
+      sidebar: [
+        {
+          label: 'Legal',
+          items: [
+            { label: 'Overview', link: '/legal', badge: { text: 'New', variant: 'tip' }},
+            { label: 'Disclaimer', link: '/legal/disclaimer' },
+            { label: 'Privacy Policy', link: 'https://thackerbroadcasting.com/legal/privacy-policy' },
+            { label: 'Terms and Conditions', link: 'https://thackerbroadcasting.com/legal/terms-conditions' },
+            { label: 'Cookie Policy', link: '/legal/cookies' },
+            { label: 'Refusal of Services', link: '/legal/refusal-of-services' }
+          ],
+        },
+        {
+          label: 'Advanced',
+          collapsed: true,
+          autogenerate: { directory: 'advanced' },
+        },
+      ],
+      social: {
+        github: 'https://github.com/thackerbroadcasting',
+      },
+      //logo: {
+        //dark: './src/assets/images/logo-dark.svg',
+        //light: './src/assets/images/logo-dark.svg',
+        //replacesTitle: true,
+      //},
     }),
 
     ...whenExternalScripts(() =>
