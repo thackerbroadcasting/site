@@ -13,7 +13,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'SaaS Landing Page',
+  title: 'Homepage',
 };
 ---
 
@@ -40,9 +40,9 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="SaaS Web Demo"
+    tagline="Thacker Broadcasting"
     actions={[
-      { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
+      { variant: 'primary', target: '', text: 'Get started', href: '/contact' },
       { text: 'Learn more', href: '#features' },
     ]}
     image={{
@@ -51,16 +51,11 @@ const metadata = {
     }}
   >
     <Fragment slot="title">
-      Simplify web design with Astrowind: <br /> your ultimate <span class="text-accent dark:text-white highlight"
-        >SaaS</span
-      > companion<br />
+      Broadcast Beyond what you though possible with <span class="text-accent dark:text-white highlight">Thacker Broadcasting</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        Elevate your website creation process with <span class="font-semibold">AstroWind</span>'s SaaS solutions.</span
-      >
-      Seamlessly blend the power of Astro 4.0 and Tailwind CSS to craft websites that resonate with your brand and audience.
+      High quality broadcasting solutions with <span class="font-semibold">faster</span> delivery, <span class="font-semibold">frequent</span> updates, unbeatable <span class="font-semibold">flexibility</span>, and a much <span class="font-semibold">cheaper</span> price that fits you and your business.
     </Fragment>
   </Hero2>
 
@@ -68,41 +63,42 @@ const metadata = {
 
   <Features
     id="features"
-    title="Why choose AstroWind?"
-    subtitle="Each of the following features enhances AstroWind's value proposition."
+    title="Why choose Thacker Broadcasting?"
+    subtitle="Why should you choose a small business over a larger one?"
     columns={2}
     items={[
       {
-        title: 'Integration of Astro 4.0 and Tailwind CSS',
+        title: 'Scheduled. 24/7.',
         description:
-          'Offers a powerful combination that enhances both the development process and the end-user experience. Also, allows to build dynamic and visually stunning websites with optimized performance.',
-        icon: 'tabler:layers-union',
+          'Always be listening or only for thirty minutes once a week. You dictate the schedule.',
+        icon: 'tabler:calendar-event',
       },
       {
-        title: 'Versatile design for startups, small businesses, and more',
-        description: `Easily customize AstroWind to harmonize with the unique branding and identity of your venture. AstroWind's versatile design adapts to suit your needs.`,
-        icon: 'tabler:artboard',
+        title: 'Music. Fast.',
+        description: 'Flip your classy restaurant into a dance floor with a few clicks. Our systems adapt and respond to your demands.',
+        icon: 'tabler:plane',
       },
       {
-        title: 'Effortless customization for portfolios and marketing sites',
+        title: 'Customizability',
+        description: 'Each client is unique, and so is the music you want. Remove overplayed songs from the latest trends, add in songs that take you back to your high school days. Whatever you can think of, our systems can adapt to make your music unique to you.',
+        icon: 'tabler:adjustments',
+      },
+      {
+        title: 'Resilient',
         description:
-          'With intuitive customization, easily showcase portfolio pieces, case studies, project highlights, and relevant content. Ideal for creative professionals and businesses looking to highlight their expertise.',
-        icon: 'tabler:writing',
+          'Modern hardware and software combined with experience provide an experience like never before. Using provides like Microsoft Azure, Amazon Web Services, and Digital Ocean allow us to provide rock-solid resiliency no matter the situation.',
+        icon: 'tabler:cloud-computing',
       },
       {
-        title: 'Optimized landing pages and engaging blogs',
-        description: `Landing pages are strategically designed to captivate visitors and prompt specific actions. Additionally, the blog creation feature empowers sharing insights, engaging the audience.`,
-        icon: 'tabler:podium',
+        title: 'Always Updated',
+        description:
+          'We keep up with the music industry so you do not have to. New music is added every week so you are always up-to-date. Of course, your customizability is always honored. Plus, our hardware and software is kept up-to-date so your experience is always flawless.',
+        icon: 'tabler:check',
       },
       {
-        title: 'Fast loading times and production-ready code',
-        description: `Using Astro 4.0 ensures fast loading and seamless rendering, enhancing browsing. The code follows best practices, improving user experience, SEO, and reducing bounce rates.`,
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'SEO-optimized structure for enhanced visibility',
-        description: `Follows SEO best practices with clean code, semantic HTML markup, and fast loading, enhancing search engine rankings. AstroWind's SEO structure ensures visibility to potential customers and clients.`,
-        icon: 'tabler:eyeglass',
+        title: 'Your Choice',
+        description: 'You always have a choice when it comes to your music. Censored or uncensored? Perhaps a mix of both at certain times? Specific genres, artists, albums, or even songs? Everything is up to you. Or turn it over to us for a stress-free experience that you can adjust at anytime.',
+        icon: 'tabler:wand',
       },
     ]}
   />
@@ -111,7 +107,7 @@ const metadata = {
 
   <Content
     title="Use cases"
-    subtitle="Discover how AstroWind's versatile template serves as the ideal solution for various use cases, providing tailored solutions to drive success."
+    subtitle="Discover how Thacker Broadcasting's versatile solutions raise the bar when it comes to music broadcasting and interacting with your customers in a whole new way."
     isReversed
     items={[
       {
@@ -131,7 +127,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Startup success stories: <br /><span class="text-2xl">Launching with AstroWind</span>
+        Startup success stories: <br /><span class="text-2xl">New Clients</span>
       </h3>
     </Fragment>
 
@@ -236,36 +232,36 @@ const metadata = {
     title="Flexible pricing plans"
     prices={[
       {
-        title: 'free',
-        subtitle: 'Access to core features and a wide range of templates',
-        price: '0',
+        title: 'Supported Ads',
+        subtitle: 'Best option for small businesses. Uses our ad network.',
+        price: 29,
         period: '/ month',
         callToAction: {
-          target: '_blank',
-          text: 'Get Started for Free',
+          target: '',
+          text: 'Get Started with Supported Ads',
           href: '#',
         },
       },
       {
-        title: 'pro',
-        subtitle: 'Premium templates and advanced customization',
-        price: 15,
+        title: 'Ad-Free',
+        subtitle: 'Best for those that want no ads.',
+        price: 39,
         period: '/ Month',
         callToAction: {
-          target: '_blank',
-          text: 'Upgrade to Pro',
+          target: '',
+          text: 'Upgrade to Controlled Ads',
           href: '#',
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
       },
       {
-        title: 'Enterprise',
-        subtitle: 'Tailored solutions for large-scale projects',
-        price: 45,
+        title: 'Controlled Ads',
+        subtitle: 'Best for large enterprises and corporations that want full control over ads.',
+        price: 49,
         period: '/ Month',
         callToAction: {
-          target: '_blank',
+          target: '',
           text: 'Unlock Enterprise Features',
           href: '#',
         },
@@ -275,33 +271,41 @@ const metadata = {
 
   <!-- FAQs Widget ******************* -->
 
-  <FAQs
-    title="Frequently Asked Questions"
-    items={[
-      {
-        title: 'Is AstroWind compatible with the latest versions of Astro and Tailwind CSS?',
-        description:
-          'Yes, AstroWind is designed to be compatible with the latest versions of both Astro and Tailwind CSS. This ensures that you can harness the full capabilities of these technologies while benefiting from the features offered by AstroWind.',
-        icon: 'tabler:chevrons-right',
-      },
-      {
-        title: 'Can I use AstroWind for both personal and commercial projects?',
-        description: `Certainly! AstroWind is versatile and can be used for a wide range of projects, including both personal and commercial endeavors. Whether you're building a professional portfolio, launching a startup, or creating a marketing website, AstroWind has you covered.`,
-        icon: 'tabler:chevrons-right',
-      },
-      {
-        title: 'What level of coding knowledge is required to use AstroWind?',
-        description:
-          'While some familiarity with HTML, CSS, and web development concepts is helpful, the user-friendly interface and customization options allow those with limited coding experience to create impressive websites. For more advanced users, AstroWind offers extensive customization capabilities.',
-        icon: 'tabler:chevrons-right',
-      },
-      {
-        title: 'Is customer support available for AstroWind users seeking guidance?',
-        description: `Absolutely, our dedicated customer support team is here to assist you with any questions or challenges you may encounter. Feel free to reach out to us through our support channels, and we'll be happy to provide the help you need.`,
-        icon: 'tabler:chevrons-right',
-      },
-    ]}
-  >
+    <FAQs
+      title="Frequently Asked Questions"
+      items={[
+        {
+          title: 'What is the difference between the plans?',
+          description:
+            'Our networks differ in the ad offerings for each network. We believe that customers should have the option to control what their customers are advertised. Of course, you are more than welcome to use our ad network if it is the more cost-effective measure for your business. The "Supported Ads" tier uses our ad network, where "Controlled Ads" allows for clients to customize ads to their liking, whether that be using our network with some tweaks, using their recorded own ads, or their own ad network.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'Can I update from Supported Ads to Ad-Free or Controlled Ads?',
+          description:
+            'Yes! You can upgrade or downgrade to any of our offerings at any time. Simply reach out to our support team to conduct this transition.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'What discounts are available for bulk orders?',
+          description:
+            'The "Controlled Ads" plan affords subscribers discounts upon their initial onboarding when they purchase 10 or more of our receivers.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'What kind of customer support can I expect?',
+          description:
+            'All customers receive dedicated email and chat support with response times matching what is agreed upon during onboarding. Typically, those on the "Controlled Ads" plan will receive faster response times due to the complexities that can be exist in larger organizations.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'Do you offer services for large-scale companies, or geographically-separated businesses?',
+          description:
+            'Yes. "Controlled Ads" members will usually have these services, which includes consultation, planning, and assistance in the transfer process. Contact us for more information on these services.',
+          icon: 'tabler:chevrons-right',
+        }
+      ]}
+    >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
@@ -311,26 +315,26 @@ const metadata = {
 
   <Steps2
     title="Reach out to us"
-    subtitle="Have questions? Feel free to contact us using the form below. We're here to help!"
+    subtitle="Have questions? Feel free to contact us using these options. We're here to help!"
     callToAction={{
       text: 'Contact us',
-      href: '/',
+      href: '/contact',
     }}
     items={[
       {
         title: 'Email us',
-        description: 'contact@support.com',
+        description: 'contact@thackerbroadcasting.com',
         icon: 'tabler:mail',
       },
       {
-        title: 'Call us',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
+        title: 'Chat with us',
+        description: 'Click the chat bubble in the bottom right',
+        icon: 'tabler:message',
       },
       {
         title: 'Follow us',
-        description: '@example',
-        icon: 'tabler:brand-twitter',
+        description: '@thackerbroadcasting',
+        icon: 'tabler:brand-instagram',
       },
     ]}
   />

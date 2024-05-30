@@ -1,0 +1,44 @@
+---
+title: Thacker Broadcasting Docs
+head:
+  - tag: title
+    content: Thacker Broadcasting Docs
+description: Explore Thacker Broadcasting's comprehensive documentation for an in-depth look at our products, how to use, legal documentation, and more. 
+template: splash
+editUrl: false
+lastUpdated: false
+next: false
+hero:
+  title: Documentation Hub
+  tagline: Your central hub for streamlined tool guidance, detailed service docs, and project support.
+  actions:
+    - text: Get started
+      icon: right-arrow
+      variant: primary
+      link: /legal
+    - text: View on GitHub
+      icon: external
+      link: https://github.com/thackerbroadcasting
+#import "./src/assets/styles/starlight_main.css";
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+
+  <Card title="Platform Guides" icon="open-book">
+    Get to know our platform, and how to use it with our straightforward guides. Dig deeper if you want, or keep it simple.
+  </Card>
+
+  <Card title="Legal" icon="document">
+    Read about our legal documentation, policies, disclaimers, and more.
+  </Card>
+
+   <Card title="FAQs" icon="list-format">
+    Discover what others have asked about us and our platforms.
+  </Card>
+
+   <Card title="Advanced Topics" icon="puzzle">
+    Dig deeper into advanced topics about our platform, or learn more about our operations among other things.
+  </Card>
+</CardGrid>
