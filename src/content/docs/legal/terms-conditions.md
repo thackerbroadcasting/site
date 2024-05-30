@@ -1,6 +1,5 @@
 ---
 title: 'Terms and Conditions'
-layout: '~/layouts/MarkdownLayout.astro'
 ---
 
 _Revision **2**. Last updated **December 16, 2023**_

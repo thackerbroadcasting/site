@@ -69,8 +69,8 @@ export default defineConfig({
           items: [
             { label: 'Overview', link: '/legal', badge: { text: 'New', variant: 'tip' }},
             { label: 'Disclaimer', link: '/legal/disclaimer' },
-            { label: 'Privacy Policy', link: 'https://thackerbroadcasting.com/legal/privacy-policy' },
-            { label: 'Terms and Conditions', link: 'https://thackerbroadcasting.com/legal/terms-conditions' },
+            { label: 'Privacy Policy', link: 'legal/privacy-policy' },
+            { label: 'Terms and Conditions', link: '/legal/terms-conditions' },
             { label: 'Cookie Policy', link: '/legal/cookies' },
             { label: 'Refusal of Services', link: '/legal/refusal-of-services' }
           ],
