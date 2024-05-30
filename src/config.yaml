@@ -14,15 +14,15 @@ metadata:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Thacker Broadcasting
     images:
-      - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+      - url: '~/assets/images/logo/TBLogo-Black.png'
+        width: 1920
+        height: 1080
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@thackerbroadcasting'
+    site: '@thackerbroadcasting'
     cardType: summary_large_image
 
 i18n:

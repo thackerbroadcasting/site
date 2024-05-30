@@ -63,6 +63,7 @@ export default defineConfig({
         baseUrl: 'https://github.com/thackerbroadcasting/redesign2/edit/main/',
       },
       lastUpdated: true,
+      disable404Route: true,
       sidebar: [
         {
           label: 'Legal',
