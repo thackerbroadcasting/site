@@ -85,11 +85,11 @@ export default defineConfig({
       social: {
         github: 'https://github.com/thackerbroadcasting',
       },
-      //logo: {
-        //dark: './src/assets/images/logo-dark.svg',
-        //light: './src/assets/images/logo-dark.svg',
-        //replacesTitle: true,
-      //},
+      logo: {
+        dark: './src/assets/images/logo/logo-dark.svg',
+        light: './src/assets/images/logo/logo-light.svg',
+        replacesTitle: true,
+      },
     }),
 
     ...whenExternalScripts(() =>
