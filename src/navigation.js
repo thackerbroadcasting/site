@@ -22,7 +22,7 @@ export const footerData = {
         //{ text: 'Enterprise', href: '#' },
         //{ text: 'Customer stories', href: '#' },
         { text: 'Pricing', href: '/pricing' },
-        { text: 'Team', href: '/team' },
+        //{ text: 'Team', href: '/team' },
       ],
     },
     {
