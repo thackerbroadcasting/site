@@ -3,7 +3,7 @@ publishDate: 2021-07-24T00:00:00Z
 #author: Wesley Thacker
 title: Caution Do Not Open Acquisition
 #excerpt: ''
-#image: https://images.unsplash.com/photo-1637144113536-9c6e917be447?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80
+image: https://plus.unsplash.com/premium_photo-1680104511613-ac897df8c6a5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 category: Press
 ---
 

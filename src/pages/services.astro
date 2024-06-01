@@ -1,9 +1,9 @@
 ---
 import CallToAction from '~/components/widgets/CallToAction.astro';
-import Content from '~/components/widgets/Content.astro';
+//import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+//import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -16,79 +16,61 @@ const metadata = {
 
   <Hero
     tagline="Services"
-    title="Elevate your projects with our stunning templates"
-    subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
-    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/' }]}
+    title="Elevate your customers experience wherever they are"
+    subtitle="Carefully crafted, thoughtfully curated, dependable, and universally loved. This is what propells your business forward. It's also what makes us unique."
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'AstroWind Hero Image',
+      src: 'https://images.unsplash.com/photo-1618609377864-68609b857e90?q=80&w=2728&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'Audio Board - Services Header image',
     }}
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
+    title="Explore our use cases"
+    subtitle="Discover how we can benefit not just your business, but your work, school, or store just to name a few."
     columns={3}
     items={[
       {
-        title: 'Educational',
-        description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Interior Design',
-        description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
-        icon: 'tabler:home-star',
-      },
-      {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
-        icon: 'tabler:photo',
-      },
-      {
-        title: 'E-commerce',
-        description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
-        icon: 'tabler:shopping-cart',
-      },
-      {
-        title: 'Blog',
-        description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
-      },
-      {
         title: 'Business',
         description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
+          'Polished, professional, in-the-background, recognizable, and branded. Our music systems and your business are practically made for each other.',
         icon: 'tabler:building-store',
       },
       {
-        title: 'Branding',
+        title: 'Security',
         description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
-        icon: 'tabler:arrow-big-up-lines',
+          'White-noise, music, or talk in those areas where sensitive materials might be created, processed, or viewed. There are times when you do not want something broadcast or may want to obfuscate something. We can help.',
+        icon: 'tabler:shield',
       },
       {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
-        icon: 'tabler:vaccine',
+        title: 'Podcasts',
+        description: "Full ownership, complete control, zero-worries. We'll distribute and host your podcast while you focus on what matters: making it.",
+        icon: 'tabler:microphone',
       },
       {
-        title: 'Fashion Design',
+        title: 'Retail',
         description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
+          'Maybe you enjoy letting your music system manage itself. Maybe you want more control. Or perhaps more flexibility. Whatever the case, your retail location(s) will always benefit with music customers and employees alike enjoy.',
+        icon: 'tabler:shopping-cart',
+      },
+      {
+        title: 'Property',
+        description:
+          "Music doesn't have to be kept indoors. Expand outside wherever you'd like and take your music with you. With an internet connection, anything is possible.",
+        icon: 'tabler:building-estate',
+      },
+      {
+        title: 'Eatery',
+        description:
+          "Perhaps you want a new 'vibe'. A change in music selection for different days perhaps. Or customers want to request songs for the weekly karaoke night you host. Whatever the use case, bars, restaraunts, clubs, and even fancy dining locations can enjoy the perfect experience at the perfect time.",
+        icon: 'tabler:cup',
       },
     ]}
   />
 
   <!-- Content Widget **************** -->
-
+<!--
   <Content
     isReversed
     items={[
@@ -126,9 +108,10 @@ const metadata = {
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
     </Fragment>
   </Content>
+-->
 
   <!-- Content Widget **************** -->
-
+<!--
   <Content
     isAfterContent
     items={[
@@ -166,9 +149,10 @@ const metadata = {
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
     </Fragment>
   </Content>
+-->
 
   <!-- Testimonials Widget *********** -->
-
+<!--
   <Testimonials
     title="Words from real customers"
     testimonials={[
@@ -207,6 +191,7 @@ const metadata = {
       icon: 'tabler:chevron-right',
     }}
   />
+  -->
 
   <!-- CallToAction Widget *********** -->
 
@@ -214,11 +199,12 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Start exploring',
-        href: '/',
+        text: 'Contact us',
+        href: '/contact',
+        icon: 'tabler:messages'
       },
     ]}
-    title="Dive into our template collection"
-    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
+    title="Dive into our services"
+    subtitle="Whether it's your business, property, podcast, or eatery, we have solutions perfectly crafted for you."
   />
 </Layout>

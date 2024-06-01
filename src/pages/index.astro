@@ -24,6 +24,10 @@ const metadata = {
 
   <Hero
     tagline="Thacker Broadcasting"
+    image={{
+      src: "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?q=80&w=2613&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      alt: "Thacker Broadcasting Homepage image"
+    }}
     actions={[
       {
         variant: 'primary',
@@ -41,16 +45,6 @@ const metadata = {
 
     <Fragment slot="subtitle">
       High quality broadcasting solutions with <span class="font-semibold">faster</span> delivery, <span class="font-semibold">frequent</span> updates, unbeatable <span class="font-semibold">flexibility</span>, and a much <span class="font-semibold">cheaper</span> price that fits you and your business.
-    </Fragment>
-
-    <Fragment slot="image">
-      <!--<YouTube id="gxBkghlglTg" title="Astro just Launched.... Could it be the ultimate web framework?" />
-      <style is:inline>
-        lite-youtube {
-          margin: 0 auto;
-          max-width: 100%;
-        }
-      </style>-->
     </Fragment>
   </Hero>
 
@@ -211,22 +205,22 @@ const metadata = {
         title: 'Supported Ads',
         subtitle: 'Best option for small businesses. Uses our ad network.',
         price: 29,
-        period: '/ month',
+        period: 'per month',
         callToAction: {
           target: '',
           text: 'Get Started with Supported Ads',
-          href: '#',
+          href: '/pricing',
         },
       },
       {
         title: 'Ad-Free',
         subtitle: 'Best for those that want no ads.',
         price: 39,
-        period: '/ Month',
+        period: 'per month',
         callToAction: {
           target: '',
           text: 'Upgrade to Controlled Ads',
-          href: '#',
+          href: '/pricing',
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
@@ -235,11 +229,11 @@ const metadata = {
         title: 'Controlled Ads',
         subtitle: 'Best for large enterprises and corporations that want full control over ads.',
         price: 49,
-        period: '/ Month',
+        period: 'per month',
         callToAction: {
           target: '',
           text: 'Unlock Enterprise Features',
-          href: '#',
+          href: '/pricing',
         },
       },
     ]}

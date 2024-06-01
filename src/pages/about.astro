@@ -15,134 +15,75 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
+    title="Who We Are"
+    subtitle="Sounds cool! But who exactly are you?"
     tagline="About us"
     image={{
-      src: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Caos Image',
+      src: 'https://images.unsplash.com/photo-1616593437252-0631aeb95590?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'Question mark written on a rock with other rocks',
     }}
-  >
-    <Fragment slot="title">
-      Elevate your online presence with our <br />
-      <span class="text-accent dark:text-white highlight"> Beautiful Website Templates</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Donec efficitur, ipsum quis congue luctus, mauris magna convallis mauris, eu auctor nisi lectus non augue. Donec
-      quis lorem non massa vulputate efficitur ac at turpis. Sed tincidunt ex a nunc convallis, et lobortis nisi tempus.
-      Suspendisse vitae nisi eget tortor luctus maximus sed non lectus.
-    </Fragment>
-  </Hero>
+  ></Hero>
 
   <!-- Stats Widget ****************** -->
 
   <Stats
     title="Statistics about us"
     stats={[
-      { title: 'Offices', amount: '4' },
-      { title: 'Employees', amount: '248' },
-      { title: 'Templates', amount: '12' },
-      { title: 'Awards', amount: '24' },
+      { title: 'Offices', amount: '0' },
+      { title: 'Employee', amount: '1' },
+      { title: 'Services', amount: '2' },
     ]}
   />
 
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Our templates"
-    subtitle="Etiam scelerisque, enim eget vestibulum luctus, nibh mauris blandit nulla, nec vestibulum risus justo ut enim. Praesent lacinia diam et ante imperdiet euismod."
+    title="More info"
+    subtitle="Woah! Those stats don't look good. What is going on here?"
     columns={3}
     isBeforeContent={true}
     items={[
       {
-        title: 'Educational',
+        title: '0 offices',
         description:
-          'Morbi faucibus luctus quam, sit amet aliquet felis tempor id. Cras augue massa, ornare quis dignissim a, molestie vel nulla.',
-        icon: 'tabler:template',
+          `We don't have offices simply because we don't need one! Thacker Broadcasting has always been a remote company, one where employees can work from anywhere.`,
+        icon: 'tabler:home-off',
       },
       {
-        title: 'Interior Design',
+        title: '1 employee',
         description:
-          'Vivamus porttitor, tortor convallis aliquam pretium, turpis enim consectetur elit, vitae egestas purus erat ac nunc nulla.',
-        icon: 'tabler:template',
+          `There's been a lot of verbiage with "we". "We" simply references the Thacker Broadcasting the company, no matter how many employees might be employed.`,
+        icon: 'tabler:user',
       },
       {
-        title: 'Photography',
+        title: '2 services',
         description:
-          'Duis sed lectus in nisl vehicula porttitor eget quis odio. Aliquam erat volutpat. Nulla eleifend nulla id sem fermentum.',
-        icon: 'tabler:template',
+          `There are so many ways you can use our services, specifically our music broadcasting. No matter how you use it, it is still one service. Combined with our podcasting, that makes two.`,
+        icon: 'tabler:numbers',
       },
     ]}
-  />
-
-  <!-- Features3 Widget ************** -->
-
-  <Features3
-    columns={3}
-    isAfterContent={true}
-    items={[
-      {
-        title: 'E-commerce',
-        description:
-          'Rutrum non odio at vehicula. Proin ipsum justo, dignissim in vehicula sit amet, dignissim id quam. Sed ac tincidunt sapien.',
-        icon: 'tabler:template',
-      },
-      {
-        title: 'Blog',
-        description:
-          'Nullam efficitur volutpat sem sed fringilla. Suspendisse et enim eu orci volutpat laoreet ac vitae libero.',
-        icon: 'tabler:template',
-      },
-      {
-        title: 'Business',
-        description:
-          'Morbi et elit finibus, facilisis justo ut, pharetra ipsum. Donec efficitur, ipsum quis congue luctus, mauris magna.',
-        icon: 'tabler:template',
-      },
-      {
-        title: 'Branding',
-        description:
-          'Suspendisse vitae nisi eget tortor luctus maximus sed non lectus. Cras malesuada pretium placerat. Nullam venenatis dolor a ante rhoncus.',
-        icon: 'tabler:template',
-      },
-      {
-        title: 'Medical',
-        description:
-          'Vestibulum malesuada lacus id nibh posuere feugiat. Nam volutpat nulla a felis ultrices, id suscipit mauris congue. In hac habitasse platea dictumst.',
-        icon: 'tabler:template',
-      },
-      {
-        title: 'Fashion Design',
-        description:
-          'Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus.',
-        icon: 'tabler:template',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'Colorful Image',
-    }}
   />
 
   <!-- Steps2 Widget ****************** -->
 
   <Steps2
     title="Our values"
-    subtitle="Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus. Nulla facilisi. Vestibulum malesuada lacus."
+    subtitle="No matter our size, services, or views, we still hold the same values."
     items={[
       {
         title: 'Customer-centric approach',
         description:
-          'Donec id nibh neque. Quisque et fermentum tortor. Fusce vitae dolor a mauris dignissim commodo. Ut eleifend luctus condimentum.',
+          `No business can exist without customers, including ours. We will always do what is best for customers, and if we aren't sure, we're one of the few companies that will ask.`,
       },
       {
         title: 'Constant Improvement',
         description:
-          'Phasellus laoreet fermentum venenatis. Vivamus dapibus pulvinar arcu eget mattis. Fusce eget mauris leo.',
+          `We're always improving to make your experience better. From better systems, more expertise, and better support, we are always looking for ways to improve.`,
       },
       {
         title: 'Ethical Practices',
         description:
-          'Vestibulum imperdiet libero et lectus molestie, et maximus augue porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+          `We always make sure we're up-to-date with industry standards when it comes to our practices.`,
       },
     ]}
   />
@@ -151,29 +92,23 @@ const metadata = {
 
   <Steps2
     title="Achievements"
-    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla, sed porttitor est nibh at nulla."
+    subtitle="Call it bragging, we're proud of what we've been able to accomplish in the few years we've been around."
     isReversed={true}
-    callToAction={{
-      text: 'See more',
-      href: '/',
-    }}
     items={[
       {
+        title: "Decentralized",
+        description: "Due to our lack of physical offices, we're considered a decentralized company which has been to our benefit. Employees can move as they please while still being able to accomplish their jobs no matter where they may physically be.",
+        icon: 'tabler:device-remote',
+      },
+      {
         title: 'Global reach',
-        description: 'Nam malesuada urna in enim imperdiet tincidunt. Phasellus non tincidunt nisi, at elementum mi.',
+        description: `In addition to our decentraliztion and utilizing cloud computing technologies, we're able to have a global impact no matter where you or your customers may be.`,
         icon: 'tabler:globe',
       },
       {
-        title: 'Positive customer feedback and reviews',
-        description:
-          'Cras semper nulla leo, eget laoreet erat cursus sed. Praesent faucibus massa in purus iaculis dictum.',
+        title: 'Personalized customer support',
+        description: `Small businesses have that unique touch of being able to provide personalized customer support. We're no different.`,
         icon: 'tabler:message-star',
-      },
-      {
-        title: 'Awards and recognition as industry experts',
-        description:
-          'Phasellus lacinia cursus velit, eu malesuada magna pretium eu. Etiam aliquet tellus purus, blandit lobortis ex rhoncus vitae.',
-        icon: 'tabler:award',
       },
     ]}
   />
@@ -183,23 +118,11 @@ const metadata = {
   <Features2
     title="Our locations"
     tagline="Find us"
-    columns={4}
+    columns={1}
     items={[
       {
-        title: 'EE.UU',
-        description: '1234 Lorem Ipsum St, 12345, Miami',
-      },
-      {
-        title: 'Spain',
-        description: '5678 Lorem Ipsum St, 56789, Madrid',
-      },
-      {
-        title: 'Australia',
-        description: '9012 Lorem Ipsum St, 90123, Sydney',
-      },
-      {
-        title: 'Brazil',
-        description: '3456 Lorem Ipsum St, 34567, São Paulo',
+        title: 'Online',
+        description: 'thackerbroadcasting.com',
       },
     ]}
   />
@@ -209,19 +132,13 @@ const metadata = {
   <Features2
     title="Technical Support"
     tagline="Contact us"
-    columns={2}
+    columns={1}
     items={[
       {
         title: 'Chat with us',
         description:
-          'Integer luctus laoreet libero, auctor varius purus rutrum sit amet. Ut nec molestie nisi, quis eleifend mi.',
+          `Click our chat icon in the bottom right and chat with a live agent. If we aren't around, we'll get with you as soon as we can.`,
         icon: 'tabler:messages',
-      },
-      {
-        title: 'Call us',
-        description:
-          'Mauris faucibus finibus orci, in posuere elit viverra non. In hac habitasse platea dictumst. Cras lobortis metus a hendrerit congue.',
-        icon: 'tabler:headset',
       },
     ]}
   />
