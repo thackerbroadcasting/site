@@ -1,0 +1,40 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+
+const metadata = {
+  title: 'Listen',
+};
+---
+<Layout metadata={metadata}>
+
+    <!-- HeroText Widget ******************* -->
+    <HeroText
+        tagline="Demos"
+        title="Listen Live"
+        subtitle="We've spun up some demo stations to give you a taste of what your music can sound like."
+    />
+
+    <!-- Features2 Widget ************** -->
+
+    <Features2
+    columns={2}
+    items={[
+        {
+            title: `Z96 Mix`,
+            description: `<iframe title="Z96 Mix music stream" src="https://live.thackerbroadcasting.com/public/z96_mix/embed?theme=light" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>`,
+        },
+        {
+            title: `98.9 The Elk`,
+            description: `<iframe title="98.9 The Elk music stream" src="https://live.thackerbroadcasting.com/public/98.9_the_elk/embed" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>`,
+        },
+        {
+            title: `103.5 Colorado's Mess`,
+            description: `<iframe title="103.5 Colorado's Mess music stream" src="https://live.thackerbroadcasting.com/public/1035_colorado_mess/embed?theme=light" frameborder="0" allowtransparency="true" style="width: 100%; min-height: 150px; border: 0;"></iframe>`
+        }
+    ]}
+    />
+</Layout>
