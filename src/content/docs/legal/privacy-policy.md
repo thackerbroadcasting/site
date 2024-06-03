@@ -2,11 +2,11 @@
 title: Privacy Policy
 ---
 
-_Revision **2**. Last updated **December 16, 2023**_
+_Revision **3**. Last updated **June 2, 2024**_
 
 This privacy notice for Thacker Broadcasting, LLC (doing business as Thacker Broadcasting) ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
-- Visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com/), or any website of ours that links to this privacy notice
+- Visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com), or any website of ours that links to this privacy notice
 - Engage with us in other related ways, including any sales, marketing, or events
 
 **Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
@@ -78,7 +78,7 @@ We may need to share your personal information in the following situations:
 ## 4. Do we use cookies and other tracking technologies?
 _**In Short:** We may use cookies and other tracking technologies to collect and store your information._
 
-We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: [https://docs.thackerbroadcasting.com/legal/cookies](https://docs.thackerbroadcasting.com/legal/cookies).
+We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: [https://thackerbroadcasting.com/legal/cookies](https://thackerbroadcasting.com/legal/cookies).
 
 ## 5. How long do we keep your information?
 _**In Short:** We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law._
@@ -106,7 +106,7 @@ If we are relying on your consent to process your personal information, which ma
 However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
 
 ### Cookies and similar technologies
-Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. For further information, please see our Cookie Notice: [https://docs.thackerbroadcasting.com/legal/cookies](https://docs.thackerbroadcasting.com/legal/cookies).
+Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. For further information, please see our Cookie Notice: [https://thackerbroadcasting.com/legal/cookies](https://thackerbroadcasting.com/legal/cookies).
 
 If you have questions or comments about your privacy rights, you may email us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
 
