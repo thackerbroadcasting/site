@@ -68,11 +68,11 @@ export default defineConfig({
         {
           label: 'Legal',
           items: [
-            { label: 'Overview', link: '/legal', badge: { text: 'New', variant: 'tip' }},
+            { label: 'Overview', link: '/legal' },
             { label: 'Disclaimer', link: '/legal/disclaimer' },
-            { label: 'Privacy Policy', link: 'legal/privacy-policy' },
-            { label: 'Terms and Conditions', link: '/legal/terms-conditions' },
-            { label: 'Cookie Policy', link: '/legal/cookies' },
+            { label: 'Privacy Policy', link: 'legal/privacy-policy', badge: { text: 'Updated', variant: 'tip' } },
+            { label: 'Terms and Conditions', link: '/legal/terms-conditions', badge: { text: 'Updated', variant: 'tip' } },
+            { label: 'Cookie Policy', link: '/legal/cookies', badge: { text: 'Updated', variant: 'tip' } },
             { label: 'Refusal of Services', link: '/legal/refusal-of-services' }
           ],
         },
