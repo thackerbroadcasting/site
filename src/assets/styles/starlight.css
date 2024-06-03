@@ -18,7 +18,7 @@
 /* Light mode colors. */
 :root[data-theme="light"] {
     --backdrop-color: #f6f6f699;
-    --sl-color-accent: #b73d00;
+    --sl-color-accent: #ff8c21;
     --sl-color-accent-high: #562800;
     --sl-color-accent-low: #ffa057;
     --sl-color-black: #fff;

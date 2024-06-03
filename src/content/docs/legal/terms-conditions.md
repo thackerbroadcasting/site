@@ -7,7 +7,7 @@ _Revision **3**. Last updated **June 3, 2024**_
 ## Agreement to our Legal Terms
 We are Thacker Broadcasting, LLC, doing business as Thacker Broadcasting ("**Company**," "**we**," "**us**," "**our**").
 
-We operate the website [thackerbroadcasting.com](https://thackerbroadcasting.com) (the "**Site**"), as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
+We operate the website [https://thackerbroadcasting.com](https://thackerbroadcasting.com) (the "**Site**"), as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
 
 You can contact us by email at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
 

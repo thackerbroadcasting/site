@@ -63,6 +63,9 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/thackerbroadcasting/redesign2/edit/main/',
       },
+      customCss: [
+        './src/assets/styles/starlight.css',
+      ],
       lastUpdated: false,
       disable404Route: true,
       sidebar: [
