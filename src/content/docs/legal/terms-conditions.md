@@ -2,12 +2,12 @@
 title: 'Terms and Conditions'
 ---
 
-_Revision **2**. Last updated **December 16, 2023**_
+_Revision **3**. Last updated **June 2, 2024**_
 
 ## Agreement to our Legal Terms
 We are Thacker Broadcasting, LLC, doing business as Thacker Broadcasting ("**Company**," "**we**," "**us**," "**our**").
 
-We operate the website [thackerbroadcasting.com](https://thackerbroadcasting.com/) (the "**Site**"), as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
+We operate the website [thackerbroadcasting.com](https://thackerbroadcasting.com) (the "**Site**"), as well as any other related products and services that refer or link to these legal terms (the "**Legal Terms**") (collectively, the "**Services**").
 
 You can contact us by email at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
 
@@ -39,6 +39,7 @@ Subject to your compliance with these Legal Terms, including the "[Prohibited Ac
 
 - access the Services; and
 - download or print a copy of any portion of the Content to which you have properly gained access
+
 solely for your personal, non-commercial use or internal business purpose.
 
 Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
@@ -161,7 +162,7 @@ We reserve the right, but not the obligation, to:
 5. otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.
 
 ## 9. Privacy Policy
-We care about data privacy and security. Please review our Privacy Policy: [https://thackerbroadcasting.com/legal/privacy-policy](https://docs.thackerbroadcasting.com/legal/privacy-policy). By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.
+We care about data privacy and security. Please review our Privacy Policy: [https://thackerbroadcasting.com/legal/privacy-policy](https://thackerbroadcasting.com/legal/privacy-policy). By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.
 
 ## 10. Copyright Infringement
 We respect the intellectual property rights of others. If you believe that any material available on or through the Services infringes upon any copyright you own or control, please immediately notify us using the contact information provided below (a "Notification"). A copy of your Notification will be sent to the person who posted or stored the material addressed in the Notification. Please be advised that pursuant to applicable law you may be held liable for damages if you make material misrepresentations in a Notification. Thus, if you are not sure that material located on or linked to by the Services infringes your copyright, you should consider first contacting an attorney.
