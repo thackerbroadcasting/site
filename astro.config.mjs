@@ -74,6 +74,7 @@ export default defineConfig({
             { label: 'Privacy Policy', link: 'legal/privacy-policy', badge: { text: 'Updated', variant: 'tip' } },
             { label: 'Terms and Conditions', link: '/legal/terms-conditions', badge: { text: 'Updated', variant: 'tip' } },
             { label: 'Cookie Policy', link: '/legal/cookies', badge: { text: 'Updated', variant: 'tip' } },
+            { label: 'Acceptable Use Policy', link: '/legal/acceptable-use-policy', badge: { text: 'New', variant: 'note' } },
             { label: 'Refusal of Services', link: '/legal/refusal-of-services' }
           ],
         },
