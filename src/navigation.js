@@ -31,11 +31,7 @@ export const footerData = {
       title: 'Products',
       links: [
         { text: 'Services', href: '/services' },
-        //{ text: 'Security', href: '#' },
-        //{ text: 'Enterprise', href: '#' },
-        //{ text: 'Customer stories', href: '#' },
         { text: 'Pricing', href: '/pricing' },
-        //{ text: 'Team', href: '/team' },
         { text: 'Listen / Demo', href: '/listen' },
       ],
     },
@@ -43,9 +39,6 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Docs', href: '/docs' },
-        //{ text: 'Community Forum', href: '#' },
-        //{ text: 'Professional Services', href: '#' },
-        //{ text: 'Skills', href: '#' },
         { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
       ],
     },
@@ -54,11 +47,7 @@ export const footerData = {
       links: [
         { text: 'About', href: '/about' },
         { text: 'Blog', href: '/blog' },
-        //{ text: 'Careers', href: '#' },
         { text: 'Press', href: '/category/press' },
-        //{ text: 'Inclusion', href: '#' },
-        //{ text: 'Social Impact', href: '#' },
-        //{ text: 'Shop', href: '#' },
       ],
     },
   ],
