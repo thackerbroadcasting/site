@@ -3,4 +3,4 @@ title: Advanced topics
 description: test
 ---
 
-Advanced bitches
+Coming soon...
