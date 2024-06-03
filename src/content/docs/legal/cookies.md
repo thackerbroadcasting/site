@@ -24,50 +24,50 @@ specific cookies served may vary depending on the specific Online Properties you
 These cookies are strictly necessary to provide you with services available through our Website and to use some of its features, such as access to secure areas.
 
 ```yaml
-	Name: cf_clearance
-	Purpose: Cloudflare clearance cookie stores the proof of challenge passed. It is used to no longer issue a challenge if present. It is required to reach an origin server.
-	Provider: .thackerbroadcasting.com
-	Service: Cloudflare [View Service Privacy Policy](https://www.cloudflare.com/privacypolicy/)
-	Type: http_cookie
-	Expires in: 11 months 30 days
+Name: cf_clearance
+Purpose: Cloudflare clearance cookie stores the proof of challenge passed. It is used to no longer issue a challenge if present. It is required to reach an origin server.
+Provider: .thackerbroadcasting.com
+Service: Cloudflare [View Service Privacy Policy](https://www.cloudflare.com/privacypolicy/)
+Type: http_cookie
+Expires in: 11 months 30 days
 ```
 
 ## Unclassified cookies
 These are cookies that have not yet been categorized. We are in the process of classifying these cookies with the help of their providers.
 
 ``` yaml
-	Name: crisp-client%2Fsession%2F18dab3b9-1e15-4425-95db-ea865c57c259
-	Provider: .thackerbroadcasting.com
-	Type: http_cookie
-	Expires in: 5 months 30 days
+Name: crisp-client%2Fsession%2F18dab3b9-1e15-4425-95db-ea865c57c259
+Provider: .thackerbroadcasting.com
+Type: http_cookie
+Expires in: 5 months 30 days
 ```
 
 ```yaml
-	Name: crisp-client/session/18dab3b9-1e15-4425-95db-ea865c57c259:e
-	Provider: thackerbroadcasting.com
-	Type: html_local_storage
-	Expires in: persistent
+Name: crisp-client/session/18dab3b9-1e15-4425-95db-ea865c57c259:e
+Provider: thackerbroadcasting.com
+Type: html_local_storage
+Expires in: persistent
 ```
 
 ```yaml
-	Name: crisp-client/session/18dab3b9-1e15-4425-95db-ea865c57c259
-	Provider: thackerbroadcasting.com
-	Type: html_local_storage
-	Expires in: persistent
+Name: crisp-client/session/18dab3b9-1e15-4425-95db-ea865c57c259
+Provider: thackerbroadcasting.com
+Type: html_local_storage
+Expires in: persistent
 ```
 
 ```yaml
-	Name: player_volume
-	Provider: live.thackerbroadcasting.com
-	Type: html_local_storage
-	Expires in: persistent
+Name: player_volume
+Provider: live.thackerbroadcasting.com
+Type: html_local_storage
+Expires in: persistent
 ```
 
 ```yaml
-	Name: starlight-theme
-	Provider: thackerbroadcasting.com
-	Type: html_local_storage
-	Expires in: persistent
+Name: starlight-theme
+Provider: thackerbroadcasting.com
+Type: html_local_storage
+Expires in: persistent
 
 ## How can I control cookies on my browser?
 As the means by which you can refuse cookies through your web browser controls vary from browser to browser, you should visit your browser's help menu for more information. The following is information about how to manage cookies on the most popular browsers:
