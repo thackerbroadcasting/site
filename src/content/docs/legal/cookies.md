@@ -68,6 +68,7 @@ Name: starlight-theme
 Provider: thackerbroadcasting.com
 Type: html_local_storage
 Expires in: persistent
+```
 
 ## How can I control cookies on my browser?
 As the means by which you can refuse cookies through your web browser controls vary from browser to browser, you should visit your browser's help menu for more information. The following is information about how to manage cookies on the most popular browsers:
