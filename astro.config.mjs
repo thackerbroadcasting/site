@@ -62,7 +62,7 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/thackerbroadcasting/redesign2/edit/main/',
       },
-      lastUpdated: true,
+      lastUpdated: false,
       disable404Route: true,
       sidebar: [
         {
