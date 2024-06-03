@@ -59,6 +59,7 @@ export default defineConfig({
 
     starlight({
       title: 'Thacker Broadcasting Docs',
+      favicon: './src/assets/favicons/favicon.svg',
       editLink: {
         baseUrl: 'https://github.com/thackerbroadcasting/redesign2/edit/main/',
       },
