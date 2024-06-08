@@ -69,18 +69,19 @@ export default defineConfig({
       lastUpdated: false,
       disable404Route: true,
       sidebar: [
-        {
-          label: 'Legal',
-          items: [
-            { label: 'Overview', link: '/legal' },
-            { label: 'Disclaimer', link: '/legal/disclaimer' },
-            { label: 'Privacy Policy', link: 'legal/privacy-policy', badge: { text: 'Updated', variant: 'tip' } },
-            { label: 'Terms and Conditions', link: '/legal/terms-conditions', badge: { text: 'Updated', variant: 'tip' } },
-            { label: 'Cookie Policy', link: '/legal/cookies', badge: { text: 'Updated', variant: 'tip' } },
-            { label: 'Acceptable Use Policy', link: '/legal/acceptable-use-policy', badge: { text: 'New', variant: 'note' } },
-            { label: 'Refusal of Services', link: '/legal/refusal-of-services' }
-          ],
-        },
+        { label: 'Legal', autogenerate: { directory: '/legal' }},
+        //{
+          //label: 'Legal',
+          //items: [
+            //{ label: 'Overview', link: '/legal' },
+            //{ label: 'Disclaimer', link: '/legal/disclaimer' },
+            //{ label: 'Privacy Policy', link: 'legal/privacy-policy', badge: { text: 'Updated', variant: 'tip' } },
+            //{ label: 'Terms and Conditions', link: '/legal/terms-conditions', badge: { text: 'Updated', variant: 'tip' } },
+            //{ label: 'Cookie Policy', link: '/legal/cookies', badge: { text: 'Updated', variant: 'tip' } },
+            //{ label: 'Acceptable Use Policy', link: '/legal/acceptable-use-policy', badge: { text: 'New', variant: 'note' } },
+            //{ label: 'Refusal of Services', link: '/legal/refusal-of-services' }
+          //],
+        //},
         {
           label: 'Advanced',
           collapsed: true,

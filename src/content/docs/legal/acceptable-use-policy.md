@@ -1,5 +1,9 @@
 ---
 title: Acceptable Use Policy
+sidebar:
+    badge:
+        text: New
+        variant: note
 ---
 
 _Revision **1**. Last updated **June 3, 2024**_

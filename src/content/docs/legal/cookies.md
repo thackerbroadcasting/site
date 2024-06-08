@@ -1,5 +1,9 @@
 ---
 title: Cookie Policy
+sidebar:
+    badge:
+        text: Updated
+        variant: success
 ---
 
 _Revision **2**. Last updated **June 2, 2024**_

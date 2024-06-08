@@ -1,5 +1,9 @@
 ---
 title: Privacy Policy
+sidebar:
+    badge:
+        text: Updated
+        variant: success
 ---
 
 _Revision **3**. Last updated **June 3, 2024**_
