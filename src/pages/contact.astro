@@ -18,7 +18,7 @@ const metadata = {
     <ContactUs
       id="form"
       title="Drop us a message today!"
-      subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking for right there! If not, our support team is delighted to help you."
+      subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking for there! If not, our support team is delighted to help you."
       inputs={[
         {
           type: 'text',
@@ -29,16 +29,16 @@ const metadata = {
           type: 'email',
           name: 'email',
           label: 'Email',
+          placeholder: 'email@email.com',
         },
       ]}
       textarea={{
         label: 'Message',
       }}
       disclaimer={{
-        label:
-          'By submitting this contact form, you acknowledge and agree to the collection of your personal information. We use Formspree.io to process this form.',
+        label: 'By submitting this contact form, you acknowledge and agree to the collection of your personal information. We use Formspree.io to process this form.',
       }}
-      description="Our support team typically responds within 24 business hours."
+      description="Our support team typically responds within 24 hours."
     />
   </form>
 
