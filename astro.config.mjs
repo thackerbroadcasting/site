@@ -90,6 +90,10 @@ export default defineConfig({
       ],
       social: {
         github: 'https://github.com/thackerbroadcasting',
+        'x.com': 'https://x.com/thackbroadcast',
+        instagram: 'https://instagram.com/thackerbroadcasting',
+        facebook: 'https://www.facebook.com/thackerbroadcasting',
+        linkedin: 'https://www.linkedin.com/company/thacker-broadcasting',
       },
       logo: {
         dark: './src/assets/images/logo/logo-dark.svg',
