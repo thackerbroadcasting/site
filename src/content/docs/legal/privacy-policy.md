@@ -6,7 +6,7 @@ sidebar:
         variant: success
 ---
 
-_Revision **3**. Last updated **June 3, 2024**_
+_Revision **4**. Last updated **June 29, 2024**_
 
 This privacy notice for Thacker Broadcasting, LLC (doing business as Thacker Broadcasting) ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("**Services**"), such as when you:
 
