@@ -14,6 +14,10 @@ export const headerData = {
         {
           text: 'Listen / Demos',
           href: '/listen',
+        },
+        {
+          text: 'Podcasting',
+          href: 'https://podcasts.thackerbroadcasting.com'
         }
       ] 
     },
