@@ -13,7 +13,7 @@ This privacy notice for Thacker Broadcasting, LLC (doing business as Thacker Bro
 - Visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com), or any website of ours that links to this privacy notice
 - Engage with us in other related ways, including any sales, marketing, or events
 
-**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
+**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## Summary of Key Points
 _**This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents to find the section you are looking for.**_
@@ -121,7 +121,7 @@ We have implemented appropriate and reasonable technical and organizational secu
 ## 7. Do we collect information from minors?
 _**In Short:** We do not knowingly collect data from or market to children under 18 years of age._
 
-We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
+We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## 8. What are your privacy rights?
 _**In Short:**  You may review, change, or terminate your account at any time, depending on your country, privince, or state of residence._
@@ -139,7 +139,7 @@ Upon your request to terminate your account, we will deactivate or delete your a
 ### Cookies and similar technologies
 Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. For further information, please see our Cookie Notice: [https://thackerbroadcasting.com/legal/cookies](https://thackerbroadcasting.com/legal/cookies).
 
-If you have questions or comments about your privacy rights, you may email us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
+If you have questions or comments about your privacy rights, you may email us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## 9. Controls for Do-Not-Track features
 Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
@@ -210,7 +210,7 @@ Depending upon the state where you live, you may also have the following rights:
 - Right to opt out of the collection of sensitive data and personal data collected through the operation of a voice or facial recognition feature (as permitted by applicable law, including Florida’s privacy law)
 
 ### How to Exercise Your Rights
-To exercise these rights, you can contact us by visiting [https://thackerbroadcasting.com/contact](https://thackerbroadcasting.com/contact), by emailing us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com), or by referring to the contact details at the bottom of this document.
+To exercise these rights, you can contact us by visiting [https://thackerbroadcasting.com/contact](https://thackerbroadcasting.com/contact), by emailing us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com), or by referring to the contact details at the bottom of this document.
 
 Under certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.
 
@@ -220,7 +220,7 @@ Upon receiving your request, we will need to verify your identity to determine y
 If you submit the request through an authorized agent, we may need to collect additional information to verify your identity before processing your request and the agent will need to provide a written and signed permission from you to submit such request on your behalf.
 
 ### Appeals
-Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com). We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.
+Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com). We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.
 
 ### California "Shine The Light" Law
 California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "[How can you contact us about this notice?](#12-how-can-you-contact-us-about-this-notice)"
@@ -231,7 +231,7 @@ _**In Short:** Yes, we will update this notice as necessary to stay compliant wi
 We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
 
 ## 12. How can you contact us about this notice?
-If you have questions or comments about this notice, you may email us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
+If you have questions or comments about this notice, you may email us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## 13. How can you review, update, or delete the data we collect from you?
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit our [https://thackerbroadcasting.com/contact](/contact).
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
