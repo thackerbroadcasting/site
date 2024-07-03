@@ -93,6 +93,7 @@ export default defineConfig({
         'x.com': 'https://x.com/thackbroadcast',
         instagram: 'https://instagram.com/thackerbroadcasting',
         facebook: 'https://www.facebook.com/thackerbroadcasting',
+        youtube: 'https://www.youtube.com/@ThackerBroadcastingStudios',
         linkedin: 'https://www.linkedin.com/company/thacker-broadcasting',
       },
       logo: {
