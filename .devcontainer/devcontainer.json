@@ -18,9 +18,11 @@
 	"customizations": {
         "vscode": {
             "extensions": [
-                "astro-build.astro-vscode",
-                "unifiedjs.vscode-mdx"
-            ]
+				"astro-build.astro-vscode",
+				"unifiedjs.vscode-mdx",
+				"esbenp.prettier-vscode",
+				"bradlc.vscode-tailwindcss"
+			]
         }
     },
 

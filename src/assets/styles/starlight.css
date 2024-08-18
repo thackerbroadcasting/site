@@ -2,7 +2,7 @@
 :root {
     --backdrop-color: #272727cc;
     --sl-color-accent: #ff8c21;
-    --sl-color-accent-high: #ffa057;
+    --sl-color-accent-high: #ff8c21;
     --sl-color-accent-low: #562800;
     --sl-color-black: #181818;
     --sl-color-gray-1: #eee;
@@ -12,7 +12,7 @@
     --sl-color-gray-5: #383838;
     --sl-color-gray-6: #272727;
     --sl-color-white: #fff;
-    --list-marker-color: #fb923c;
+    --list-marker-color: #ff8c21;
 }
 
 /* Light mode colors. */
@@ -20,7 +20,7 @@
     --backdrop-color: #f6f6f699;
     --sl-color-accent: #ff8c21;
     --sl-color-accent-high: #562800;
-    --sl-color-accent-low: #ffa057;
+    --sl-color-accent-low: #ff8c21;
     --sl-color-black: #fff;
     --sl-color-gray-1: #272727;
     --sl-color-gray-2: #383838;
@@ -30,7 +30,7 @@
     --sl-color-gray-6: #eee;
     --sl-color-gray-7: #f6f6f6;
     --sl-color-white: #181818;
-    --list-marker-color: #fb923c;
+    --list-marker-color: #ff8c21;
 }
 
 header {

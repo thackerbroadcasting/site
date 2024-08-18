@@ -1,9 +1,9 @@
 ---
 title: Terms and Conditions
-sidebar:
-    badge:
-        text: Updated
-        variant: success
+#sidebar:
+    #badge:
+        #text: Updated
+        #variant: success
 ---
 
 _Revision **4**. Last updated **June 29, 2024**_
