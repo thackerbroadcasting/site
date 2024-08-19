@@ -61,7 +61,7 @@ export default defineConfig({
       title: 'Thacker Broadcasting Docs',
       favicon: './src/assets/favicons/favicon.svg',
       editLink: {
-        baseUrl: 'https://github.com/thackerbroadcasting/redesign2/edit/main/',
+        baseUrl: 'https://github.com/thackerbroadcasting/site/edit/main/',
       },
       customCss: [
         './src/assets/styles/starlight.css',
