@@ -1,5 +1,6 @@
 ---
 title: Refusal of Services
+tableOfContents: false
 ---
 
 Thacker Broadcasting, LLC reserves the right to refuse services to anyone for the following reasons, to include but not limited to:

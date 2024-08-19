@@ -125,7 +125,7 @@ _**In Short:** We do not knowingly collect data from or market to children under
 We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## 8. What are your privacy rights?
-_**In Short:**  You may review, change, or terminate your account at any time, depending on your country, privince, or state of residence._
+_**In Short:**  You may review, change, or terminate your account at any time, depending on your country, province, or state of residence._
 
 ### Withdrawing your consent
 If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "[How can you contact us about this notice?](#12-how-can-you-contact-us-about-this-notice)" below.

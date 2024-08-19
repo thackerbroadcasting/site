@@ -1,5 +1,6 @@
 ---
 title: Advanced topics
+tableOfContents: false
 ---
 
 # 🚧 Under Construction 🚧

@@ -12,7 +12,7 @@ Please carefully review this Policy which applies to any and all:
 
 - uses of our Services (as defined in "Legal Terms")
 - forms, materials, consent tools, comments, post, and all other content available on the Services ("**Content**") and
-- material which you contribute to the Services including any upload, post, review, disclosure, ratings, comments, chat etc. in any forum, chatrooms, reviews, and to any interactive services associated with it ("**Contribution**").
+- material which you contribute to the Services including any upload, post, review, disclosure, ratings, comments, chat etc. in any forum, chat rooms, reviews, and to any interactive services associated with it ("**Contribution**").
 
 ## Who We Are
 We are Thacker Broadcasting, LLC, doing business as Thacker Broadcasting ("**Company**," "**we**," "**us**," or "**our**") a company registered in Utah. We operate the website [https://thackerbroadcasting.com](https://thackerbroadcasting.com) (the "**Site**"), as well as any other related products and services that refer or link to this Policy (collectively, the "**Services**").
@@ -34,7 +34,7 @@ You also acknowledge that you may not:
 - Use any information obtained from the Services in order to harass, abuse, or harm another person.
 - Use the Services as part of any effort to compete with us or otherwise use the
 - Services and/or the Content for any revenue-generating endeavor or commercial enterprise.
-- Decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services, except as expressly permitted by applicable law.
+- Decipher, de-compile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the Services, except as expressly permitted by applicable law.
 - Attempt to bypass any measures of the Services designed to prevent or restrict access to the Services, or any portion of the Services.
 - Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.
 - Delete the copyright or other proprietary rights notice from any Content.
@@ -114,7 +114,7 @@ We may, in some cases, give you a warning and/or remove the infringing Contribut
 
 We exclude our liability for all action we may take in response to any of your breaches of this Policy.
 
-## Complaints and Removal of Legitmate Content
+## Complaints and Removal of Legitimate Content
 If you consider that some Content or Contribution have been mistakenly removed or blocked from the Services, please refer to the contact details at the bottom of this document and we will promptly review our decision to remove such Content or Contribution. The Content or Contribution may stay "down" whilst we conduct the review process.
 
 Guidance violations will result in posting abilities being restricted by first being flagged for moderation. This will require a moderator to approve a user's posts and/or comments. This restriction is meant to be temporary and will be lifted when the moderators feel the situation has been resolved. If a user cannot follow the guidelines after that, their account will be blocked from posting. Further actions (such as restricting access to the Services as a whole) can and will be applied if necessary.
