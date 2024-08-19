@@ -12,7 +12,7 @@ export const headerData = {
           href: getPermalink('/services'),
         },
         {
-          text: 'Listen / Demos',
+          text: 'Listen Live',
           href: '/listen',
         },
         {
@@ -36,7 +36,7 @@ export const footerData = {
       links: [
         { text: 'Services', href: '/services' },
         { text: 'Pricing', href: '/pricing' },
-        { text: 'Listen / Demo', href: '/listen' },
+        { text: 'Listen', href: '/listen' },
       ],
     },
     {
@@ -50,9 +50,9 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '/about' },
-        { text: 'Blog', href: '/blog' },
-        { text: 'Press', href: '/category/press' },
+        { text: 'About', href: getPermalink('/about') },
+        { text: 'Blog', href: getBlogPermalink('/blog') },
+        { text: 'Press', href: getBlogPermalink('/blog') + getPermalink('category') + '/press' },
       ],
     },
   ],
