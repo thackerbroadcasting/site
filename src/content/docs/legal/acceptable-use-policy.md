@@ -1,5 +1,6 @@
 ---
 title: Acceptable Use Policy
+lastUpdated: false
 ---
 
 _Revision **1**. Last updated **June 3, 2024**_
