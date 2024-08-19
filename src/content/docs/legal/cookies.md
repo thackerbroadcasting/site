@@ -1,5 +1,6 @@
 ---
 title: Cookie Policy
+lastUpdated: false
 ---
 
 _Revision **2**. Last updated **June 2, 2024**_

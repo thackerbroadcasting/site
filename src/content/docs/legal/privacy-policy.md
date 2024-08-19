@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+lastUpdated: false
 #sidebar:
     #badge:
         #text: Updated

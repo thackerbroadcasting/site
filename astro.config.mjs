@@ -66,7 +66,7 @@ export default defineConfig({
       customCss: [
         './src/assets/styles/starlight.css',
       ],
-      lastUpdated: false,
+      lastUpdated: true,
       disable404Route: true,
       sidebar: [
         { label: 'Legal', autogenerate: { directory: '/legal' }},

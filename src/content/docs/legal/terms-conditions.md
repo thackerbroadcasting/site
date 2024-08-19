@@ -1,5 +1,6 @@
 ---
 title: Terms and Conditions
+lastUpdated: false
 #sidebar:
     #badge:
         #text: Updated
