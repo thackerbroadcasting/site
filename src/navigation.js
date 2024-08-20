@@ -26,7 +26,7 @@ export const headerData = {
     { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Blog', href: getBlogPermalink() }
   ],
-  //actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Broadcast Portal', href: 'https://live.thackerbroadcasting.com', target: '_blank' }],
 };
 
 export const footerData = {
