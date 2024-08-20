@@ -69,7 +69,13 @@ export default defineConfig({
       lastUpdated: true,
       disable404Route: true,
       sidebar: [
-        { label: 'Legal', autogenerate: { directory: '/legal' }},
+        { 
+          label: 'Legal',
+          collapsed: true,
+          autogenerate: { 
+            directory: '/legal' 
+          } 
+        },
         //{
           //label: 'Legal',
           //items: [
@@ -87,6 +93,10 @@ export default defineConfig({
           collapsed: true,
           autogenerate: { directory: 'advanced' },
         },
+        {
+          label: 'FAQs',
+          link: '/faqs',
+        }
       ],
       social: {
         github: 'https://github.com/thackerbroadcasting',
