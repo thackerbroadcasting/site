@@ -43,7 +43,7 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Docs', href: '/docs' },
-        { text: 'Support Desk', href: 'https://thackerbroadcasting.atlassian.net/servicedesk/customer/portals'},
+        { text: 'Support Desk', href: 'https://thackerbroadcasting.freshdesk.com' },
         { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
       ],
     },
