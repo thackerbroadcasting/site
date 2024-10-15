@@ -1,0 +1,353 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Content from '~/components/widgets/Content.astro';
+import Pricing from '~/components/widgets/Pricing.astro';
+
+import { headerData } from '~/navigation';
+import FAQs from '~/components/widgets/FAQs.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'Homepage',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="header">
+    <Header
+      {...headerData}
+      actions={[
+        {
+          variant: 'secondary',
+          text: 'Login',
+          href: '#',
+        },
+        {
+          variant: 'primary',
+          text: 'Sign Up',
+          href: '#',
+        },
+      ]}
+      isSticky
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Thacker Broadcasting"
+    actions={[
+      { variant: 'primary', target: '', text: 'Get started', href: '/contact' },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'AstroWind Hero Image',
+    }}
+  >
+    <Fragment slot="title">
+      Broadcast Beyond what you though possible with <span class="text-accent dark:text-white highlight">Thacker Broadcasting</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      High quality broadcasting solutions with <span class="font-semibold">faster</span> delivery, <span class="font-semibold">frequent</span> updates, unbeatable <span class="font-semibold">flexibility</span>, and a much <span class="font-semibold">cheaper</span> price that fits you and your business.
+    </Fragment>
+  </Hero2>
+
+  <!-- Features Widget *************** -->
+
+  <Features
+    id="features"
+    title="Why choose Thacker Broadcasting?"
+    subtitle="Why should you choose a small business over a larger one?"
+    columns={2}
+    items={[
+      {
+        title: 'Scheduled. 24/7.',
+        description:
+          'Always be listening or only for thirty minutes once a week. You dictate the schedule.',
+        icon: 'tabler:calendar-event',
+      },
+      {
+        title: 'Music. Fast.',
+        description: 'Flip your classy restaurant into a dance floor with a few clicks. Our systems adapt and respond to your demands.',
+        icon: 'tabler:plane',
+      },
+      {
+        title: 'Customizability',
+        description: 'Each client is unique, and so is the music you want. Remove overplayed songs from the latest trends, add in songs that take you back to your high school days. Whatever you can think of, our systems can adapt to make your music unique to you.',
+        icon: 'tabler:adjustments',
+      },
+      {
+        title: 'Resilient',
+        description:
+          'Modern hardware and software combined with experience provide an experience like never before. Using provides like Microsoft Azure, Amazon Web Services, and Digital Ocean allow us to provide rock-solid resiliency no matter the situation.',
+        icon: 'tabler:cloud-computing',
+      },
+      {
+        title: 'Always Updated',
+        description:
+          'We keep up with the music industry so you do not have to. New music is added every week so you are always up-to-date. Of course, your customizability is always honored. Plus, our hardware and software is kept up-to-date so your experience is always flawless.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Your Choice',
+        description: 'You always have a choice when it comes to your music. Censored or uncensored? Perhaps a mix of both at certain times? Specific genres, artists, albums, or even songs? Everything is up to you. Or turn it over to us for a stress-free experience that you can adjust at anytime.',
+        icon: 'tabler:wand',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="Use cases"
+    subtitle="Discover how Thacker Broadcasting's versatile solutions raise the bar when it comes to music broadcasting and interacting with your customers in a whole new way."
+    isReversed
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Are you a startup with big dreams? AstroWind propels your success. Our template forges a seamless online presence, attracting investors and customers from day one. Astro 4.0 and Tailwind CSS ensure striking, responsive sites, leaving lasting impressions. Countless startups leverage AstroWind to kickstart their journey and resonate with audiences.',
+      },
+      {
+        title: 'Benefits:',
+        description: `Allow startups to quickly create professional websites without investing extensive time and resources. <br /> Make a memorable first impression with visually appealing design elements that highlight your startup's unique value proposition. <br /> Ensures your website looks stunning and works well on all devices. <br /> Engage potential investors and customers with engaging content, clear messaging, and intuitive navigation.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1620558138198-cfb9b4f3c294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1671&q=80',
+      alt: 'Startup Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Startup success stories: <br /><span class="text-2xl">New Clients</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description: `For SaaS businesses, user experience is key. AstroWind enhances showcasing SaaS solutions intuitively. The template's Astro 4.0 and Tailwind CSS integration guarantees user-friendly experience, mirroring your software's efficiency. Customize pages to communicate SaaS value and solutions for your audience.`,
+      },
+      {
+        title: 'Benefits:',
+        description: `Ensuring a cohesive and user-centric design for your SaaS website. <br /> Effectively communicate complex SaaS features through visual aids, animations, and interactive elements. <br /> Prioritize user needs and pain points through well-structured layouts and clear navigation. <br /> Encourage visitors to take action with strategically placed CTAs. <br /> Ensures your SaaS website works seamlessly across all devices.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1531973486364-5fa64260d75b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1658&q=80',
+      alt: 'SaaS Businesses Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        SaaS showcase: <br /><span class="text-2xl">Streamlining user experience</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description: `Your portfolio is your masterpiece, and AstroWind is your canvas. Whether you're a designer, photographer, artist, or any other creative professional, AstroWind empowers you to showcase your work with elegance and sophistication. Tailored to highlight your creative projects, AstroWind's templates offer a visually immersive experience that lets your portfolio shine.`,
+      },
+      {
+        title: 'Benefits:',
+        description: `Serve as a captivating backdrop to showcase your creative work, capturing attention and leaving a lasting impression. <br /> Tailor your portfolio to reflect your unique style and artistic vision. <br /> Prioritizes visuals, allowing you to present your work in high-resolution detail that draws viewers into your creations. <br /> Enables seamless navigation for effortless portfolio exploration.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Portfolio Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Creative portfolios: <br /><span class="text-2xl">Highlighting your work</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    items={[
+      {
+        title: 'Description:',
+        description: `For small businesses, a well-crafted website can be a game-changer. AstroWind empowers small businesses to not only establish a credible online presence but also convert visitors into loyal customers. The template's thoughtful design and optimization features ensure that your website doesn't just attract attention but also guides visitors through a seamless journey, ultimately leading to conversions.`,
+      },
+      {
+        title: 'Benefits:',
+        description: `Present your small business with a professional and polished website that instills confidence and trust among visitors. <br /> Strategically placed CTAs, user-friendly forms, and optimized layouts work together to drive user engagement and conversions. <br /> Ensure a smooth browsing experience, reducing bounce rates and encouraging interaction.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1514621166532-aa7eb1a3a2f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Small Business Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Small business growth: <br /><span class="text-2xl">Converting visitors into customers</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- Pricing Widget ******************* -->
+
+  <Pricing
+    title="Flexible pricing plans"
+    prices={[
+      {
+        title: 'Supported Ads',
+        subtitle: 'Best option for small businesses. Uses our ad network.',
+        price: 29,
+        period: '/ month',
+        callToAction: {
+          target: '',
+          text: 'Get Started with Supported Ads',
+          href: '#',
+        },
+      },
+      {
+        title: 'Ad-Free',
+        subtitle: 'Best for those that want no ads.',
+        price: 39,
+        period: '/ Month',
+        callToAction: {
+          target: '',
+          text: 'Upgrade to Controlled Ads',
+          href: '#',
+        },
+        hasRibbon: true,
+        ribbonTitle: 'popular',
+      },
+      {
+        title: 'Controlled Ads',
+        subtitle: 'Best for large enterprises and corporations that want full control over ads.',
+        price: 49,
+        period: '/ Month',
+        callToAction: {
+          target: '',
+          text: 'Unlock Enterprise Features',
+          href: '#',
+        },
+      },
+    ]}
+  />
+
+  <!-- FAQs Widget ******************* -->
+
+    <FAQs
+      title="Frequently Asked Questions"
+      items={[
+        {
+          title: 'What is the difference between the plans?',
+          description:
+            'Our networks differ in the ad offerings for each network. We believe that customers should have the option to control what their customers are advertised. Of course, you are more than welcome to use our ad network if it is the more cost-effective measure for your business. The "Supported Ads" tier uses our ad network, where "Controlled Ads" allows for clients to customize ads to their liking, whether that be using our network with some tweaks, using their recorded own ads, or their own ad network.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'Can I update from Supported Ads to Ad-Free or Controlled Ads?',
+          description:
+            'Yes! You can upgrade or downgrade to any of our offerings at any time. Simply reach out to our support team to conduct this transition.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'What discounts are available for bulk orders?',
+          description:
+            'The "Controlled Ads" plan affords subscribers discounts upon their initial onboarding when they purchase 10 or more of our receivers.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'What kind of customer support can I expect?',
+          description:
+            'All customers receive dedicated email and chat support with response times matching what is agreed upon during onboarding. Typically, those on the "Controlled Ads" plan will receive faster response times due to the complexities that can be exist in larger organizations.',
+          icon: 'tabler:chevrons-right',
+        },
+        {
+          title: 'Do you offer services for large-scale companies, or geographically-separated businesses?',
+          description:
+            'Yes. "Controlled Ads" members will usually have these services, which includes consultation, planning, and assistance in the transfer process. Contact us for more information on these services.',
+          icon: 'tabler:chevrons-right',
+        }
+      ]}
+    >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </FAQs>
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Reach out to us"
+    subtitle="Have questions? Feel free to contact us using these options. We're here to help!"
+    callToAction={{
+      text: 'Contact us',
+      href: '/contact',
+    }}
+    items={[
+      {
+        title: 'Email us',
+        description: 'contact@thackerbroadcasting.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Chat with us',
+        description: 'Click the chat bubble in the bottom right',
+        icon: 'tabler:message',
+      },
+      {
+        title: 'Follow us',
+        description: '@thackerbroadcasting',
+        icon: 'tabler:brand-instagram',
+      },
+    ]}
+  />
+
+  <!-- BlogLatestPost Widget **************** -->
+
+  <BlogLatestPosts
+    id="blog"
+    title="Stay informed with AstroWind's blog"
+    information={`Explore our collection of articles, guides, and tutorials on web development, design trends, and using AstroWind effectively for your projects.`}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
+</Layout>
