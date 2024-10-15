@@ -4,6 +4,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Header from '~/components/widgets/Header.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
@@ -40,22 +41,18 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="Thacker Broadcasting"
-    actions={[
-      { variant: 'primary', target: '', text: 'Get started', href: '/contact' },
-      { text: 'Learn more', href: '#features' },
-    ]}
+    tagline="Services"
     image={{
-      src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'AstroWind Hero Image',
     }}
   >
     <Fragment slot="title">
-      Broadcast Beyond what you though possible with <span class="text-accent dark:text-white highlight">Thacker Broadcasting</span>
+      Remote. Simplified. Easy. Secure. That's <span class="text-accent dark:text-white highlight">IT Management</span>.
     </Fragment>
 
     <Fragment slot="subtitle">
-      High quality broadcasting solutions with <span class="font-semibold">faster</span> delivery, <span class="font-semibold">frequent</span> updates, unbeatable <span class="font-semibold">flexibility</span>, and a much <span class="font-semibold">cheaper</span> price that fits you and your business.
+      Focus on what you do best: running your business. We'll take care of the technical stuff.
     </Fragment>
   </Hero2>
 
@@ -63,45 +60,38 @@ const metadata = {
 
   <Features
     id="features"
-    title="Why choose Thacker Broadcasting?"
-    subtitle="Why should you choose a small business over a larger one?"
+    title="Worry about your business"
+    subtitle="Adjust your focus. Do what you do best. We've got this piece."
     columns={2}
     items={[
       {
-        title: 'Scheduled. 24/7.',
+        title: 'Small Business. Small Pricing.',
         description:
-          'Always be listening or only for thirty minutes once a week. You dictate the schedule.',
-        icon: 'tabler:calendar-event',
+          'Our prices are just right for all business sizes.',
+        icon: 'tabler:building-store',
       },
       {
-        title: 'Music. Fast.',
-        description: 'Flip your classy restaurant into a dance floor with a few clicks. Our systems adapt and respond to your demands.',
-        icon: 'tabler:plane',
+        title: 'Invisible',
+        description: 'Our network designs keep your speeds fast and experience flawless*, all while never noticing our presence.',
+        icon: 'tabler:shield',
       },
       {
-        title: 'Customizability',
-        description: 'Each client is unique, and so is the music you want. Remove overplayed songs from the latest trends, add in songs that take you back to your high school days. Whatever you can think of, our systems can adapt to make your music unique to you.',
-        icon: 'tabler:adjustments',
+        title: `Updated`,
+        description: `Updates are part of our (almost) daily lives now. We'll keep your tech up-to-date so you don't have to.`,
+        icon: 'tabler:calendar-event'
       },
       {
-        title: 'Resilient',
-        description:
-          'Modern hardware and software combined with experience provide an experience like never before. Using provides like Microsoft Azure, Amazon Web Services, and Digital Ocean allow us to provide rock-solid resiliency no matter the situation.',
-        icon: 'tabler:cloud-computing',
-      },
-      {
-        title: 'Always Updated',
-        description:
-          'We keep up with the music industry so you do not have to. New music is added every week so you are always up-to-date. Of course, your customizability is always honored. Plus, our hardware and software is kept up-to-date so your experience is always flawless.',
-        icon: 'tabler:check',
-      },
-      {
-        title: 'Your Choice',
-        description: 'You always have a choice when it comes to your music. Censored or uncensored? Perhaps a mix of both at certain times? Specific genres, artists, albums, or even songs? Everything is up to you. Or turn it over to us for a stress-free experience that you can adjust at anytime.',
-        icon: 'tabler:wand',
+        title: `Monitored`,
+        description: `Your network is always monitored with us, and we'll only bother you if it's something super important. Unless, of course, you want every alarm.`,
+        icon: `tabler:bell`
       },
     ]}
   />
+
+  <Features2
+  subtitle="* Subject to ISP experience, local area outages, and other factors outside of our control. We will do everything we can to make it a pleasant experience no matter who your ISP is, but there are unfortunately things we cannot plan, account, or be held liable for. To keep it simple, if it is beyond your building/business, it is out of our control."
+>
+</Features2>
 
   <!-- Content Widget **************** -->
 
@@ -343,8 +333,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Stay informed with AstroWind's blog"
-    information={`Explore our collection of articles, guides, and tutorials on web development, design trends, and using AstroWind effectively for your projects.`}
+    title="Stay informed with Thacker Broadcasting's blog"
+    information={`Lots going on here.`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>

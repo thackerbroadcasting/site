@@ -287,3 +287,9 @@ export interface Content extends Omit<Headline, 'classes'>, Widget {
 }
 
 export interface Contact extends Omit<Headline, 'classes'>, Form, Widget {}
+
+declare global {
+  interface Window {
+    fcWidget: any;
+  }
+}

@@ -21,8 +21,8 @@ metadata:
         height: 1080
     type: website
   twitter:
-    handle: '@thackerbroadcasting'
-    site: '@thackerbroadcasting'
+    handle: '@thackbroadcast'
+    site: '@thackbroadcasting'
     cardType: summary_large_image
 
 i18n:
