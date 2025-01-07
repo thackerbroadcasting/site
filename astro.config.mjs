@@ -103,6 +103,7 @@ export default defineConfig({
         },
         {
           label: 'MSP',
+          collapsed: true,
           items: [
             { label: 'Policies',
               autogenerate: { directory: '/msp/policies' },
