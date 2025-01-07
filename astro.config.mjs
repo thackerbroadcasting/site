@@ -100,6 +100,14 @@ export default defineConfig({
         {
           label: 'FAQs',
           link: '/faqs',
+        },
+        {
+          label: 'MSP',
+          items: [
+            { label: 'Policies',
+              autogenerate: { directory: '/msp/policies' },
+            },
+          ],
         }
       ],
       social: {
