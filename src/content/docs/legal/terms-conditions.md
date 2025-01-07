@@ -7,7 +7,7 @@ lastUpdated: false
         #variant: success
 ---
 
-_Revision **4**. Last updated **June 29, 2024**_
+_Revision **4**. Last updated **June 29, 2024**._
 
 ## Agreement to our Legal Terms
 We are Thacker Broadcasting, LLC, doing business as Thacker Broadcasting ("**Company**," "**we**," "**us**," "**our**").

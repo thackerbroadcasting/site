@@ -1,9 +1,13 @@
 ---
 title: Guest Wireless Network Management Policy
-lastUpdated: true
+lastUpdated: false
+sidebar:
+    badge:
+        text: New
+        variant: tip
 ---
 
-_Revision **1**_
+_Revision **1**. Last updated **January 7, 2025**._
 
 To ensure the security and integrity of the guest wireless network managed by Thacker Broadcasting, this policy outlines the acceptable use of personal devices on the network.
 

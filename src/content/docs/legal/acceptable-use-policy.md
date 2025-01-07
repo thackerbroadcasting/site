@@ -3,7 +3,7 @@ title: Acceptable Use Policy
 lastUpdated: false
 ---
 
-_Revision **1**. Last updated **June 3, 2024**_
+_Revision **1**. Last updated **June 3, 2024**._
 
 This Acceptable Use Policy ("**Policy**") is part of our Terms and Conditions ("**Legal Terms**") and should therefore be read alongside our main Legal Terms:
 [https://thackerbroadcasting.com/legal/terms-conditions](/legal/terms-conditions). If you do not agree with these Legal Terms, please refrain from using our Services. Your continued use of our Services implies acceptance of these Legal Terms.

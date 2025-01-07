@@ -1,9 +1,13 @@
 ---
 title: Acceptable Use Policy
-lastUpdated: true
+lastUpdated: false
+sidebar:
+    badge:
+        text: New
+        variant: tip
 ---
 
-_Revision **1**_
+_Revision **1**. Last updated **January 7, 2025**._
 
 To ensure the responsible and secure use of technical systems, networks, and equipment managed by Thacker Broadcasting, this policy outlines the guidelines for acceptable use.
 

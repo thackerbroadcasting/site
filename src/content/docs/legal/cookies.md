@@ -3,7 +3,7 @@ title: Cookie Policy
 lastUpdated: false
 ---
 
-_Revision **2**. Last updated **June 2, 2024**_
+_Revision **2**. Last updated **June 2, 2024**._
 
 This Cookie Policy explains how Thacker Broadcasting, LLC ("**Company**," "**we**," "**us**," and "**our**") uses cookies and similar technologies to recognize you when you visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com) ("**Website**"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
