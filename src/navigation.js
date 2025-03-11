@@ -10,6 +10,8 @@ const formattedDate = buildDate instanceof Date && !isNaN(buildDate.getTime())
 export const headerData = {
   links: [
     { text: 'Home', href: '/'},
+    { text: 'Services', href: '/services'},
+    /*
     { 
       text: 'Services',
       href: getPermalink('/services'),
@@ -28,6 +30,7 @@ export const headerData = {
         }
       ] 
     },
+    */
     { text: 'Pricing', href: getPermalink('/pricing') },
     { text: 'About', href: getPermalink('/about') },
     { text: 'Contact', href: getPermalink('/contact') },
