@@ -33,6 +33,10 @@ export default defineConfig({
     port: 4321,
   },
 
+  define: {
+    'import.meta.env.BUILD_TIMESTAMP': JSON.stringify(new Date().toISOString()),
+  },
+
   integrations: [
     tailwind({
       applyBaseStyles: false,
