@@ -20,6 +20,8 @@ import {
 } from './src/utils/frontmatter.mjs';
 import { astroExpressiveCode } from '@astrojs/starlight/expressive-code';
 
+import cloudflare from '@astrojs/cloudflare';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
@@ -28,6 +30,8 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'static',
+  adapter: cloudflare(),
+
   server: {
     host: '0.0.0.0',
     port: 4321,
