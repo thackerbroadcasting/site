@@ -34,7 +34,11 @@ export default defineConfig({
   },
 
   define: {
-    'import.meta.env.BUILD_TIMESTAMP': JSON.stringify(new Date().toISOString()),
+    'import.meta.env.BUILD_TIMESTAMP': JSON.stringify(
+      process.env.NODE_ENV === 'development'
+        ? new Date().toISOString()
+        : process.env.BUILD_TIMESTAMP || new Date().toISOString()
+    ),
   },
 
   integrations: [

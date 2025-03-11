@@ -1,9 +1,11 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
-const buildDate = new Date(import.meta.env.BUILD_TIMESTAMP)
-  .toISOString()
-  .replace('T', ' ')
-  .split('.')[0];
+const buildDateString = import.meta.env.BUILD_TIMESTAMP;
+const buildDate = new Date(buildDateString)
+
+const formattedDate = buildDate instanceof Date && !isNaN(buildDate.getTime())
+  ? buildDate.toISOString().replace('T', ' ').split('.')[0]
+  : new Date().toISOString().replace('T', ' ').split('.')[0]
 
 export const headerData = {
   links: [
@@ -63,7 +65,7 @@ export const footerData = {
     {
       title: 'Site Info',
       links: [
-        { text: `Site built: ${buildDate}`},
+        { text: `Site built: ${formattedDate}`},
       ]
     }
   ],
