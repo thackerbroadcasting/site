@@ -312,16 +312,6 @@ const metadata = {
     </Fragment>
   </Features2>
 
-  <!-- HighlightedPosts Widget ******* -->
-
-  <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  />
-
   <!-- FAQs Widget ******************* -->
 
   <FAQs
@@ -373,6 +363,19 @@ const metadata = {
       { title: 'Users', amount: '48.4K' },
     ]}
   />
+
+  <!-- BlogLatestPost Widget **************** -->
+
+  <BlogLatestPosts
+  id="blog"
+  title="Stay informed with our blog"
+  information={``}
+  >
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-blue-50 dark:bg-blue-500/10"></div>
+  </Fragment>
+  </BlogLatestPosts>
+
 
   <!-- CallToAction Widget *********** -->
 
