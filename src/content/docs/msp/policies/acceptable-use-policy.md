@@ -1,10 +1,6 @@
 ---
 title: Acceptable Use Policy
 lastUpdated: false
-sidebar:
-    badge:
-        text: New
-        variant: tip
 ---
 
 _Revision **1**. Last updated **January 7, 2025**._

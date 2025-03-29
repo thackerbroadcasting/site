@@ -3,9 +3,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Prices from '~/components/widgets/Pricing.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Steps from '~/components/widgets/Steps.astro';
+//import Steps from '~/components/widgets/Steps.astro';
 import Features3 from '~/components/widgets/Features3.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+//import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Pricing',
@@ -28,83 +28,83 @@ const metadata = {
     subtitle="Only pay for what you need"
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
+        title: 'supported ads',
+        subtitle: 'Optimal choice for small businesses',
         price: 29,
         period: 'per month',
         items: [
           {
-            description: 'Etiam in libero, et volutpat',
+            description: 'Traditional radio station feel',
           },
           {
-            description: 'Aenean ac nunc dolor tristique',
+            description: 'Uses our ad network',
           },
           {
-            description: 'Cras scelerisque accumsan lib',
+            description: 'Customized to your business',
           },
           {
-            description: 'In hac habitasse',
+            description: 'Upgradable at any time',
           },
         ],
         callToAction: {
-          target: '_blank',
+          target: '',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
       },
       {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
+        title: 'ad-free',
+        subtitle: "Optimal choice for those that don't want ads",
+        price: 39,
         period: 'Per Month',
         items: [
           {
-            description: 'Proin vel laoreet',
+            description: 'Traditional radio station feel',
           },
           {
-            description: 'Ut efficitur habitasse egestas',
+            description: 'Contains zero ad support',
           },
           {
-            description: 'Volutpat hac curabitur',
+            description: 'Customized to your business',
           },
           {
-            description: 'Pellentesque blandit ut nibh',
+            description: 'Optional customer interaction via a specialized link',
           },
           {
-            description: 'Donec fringilla sem',
+            description: 'Upgrade or downgrade at any time',
           },
         ],
         callToAction: {
-          target: '_blank',
+          target: '',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
         hasRibbon: true,
         ribbonTitle: 'popular',
       },
       {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
+        title: 'controlled ads',
+        subtitle: 'Optimal choice for enterprises and corporations',
+        price: 49,
         period: 'Per Month',
         items: [
           {
-            description: 'Curabitur suscipit risus',
+            description: 'Multi-location support',
           },
           {
-            description: 'Aliquam habitasse malesuada',
+            description: 'Ad-network support',
           },
           {
-            description: 'Suspendisse sit amet blandit',
+            description: 'Customized per location or the entire company',
           },
           {
-            description: 'Suspendisse auctor blandit dui',
+            description: 'Enhanced customer support',
           },
         ],
         callToAction: {
-          target: '_blank',
+          target: '',
           text: 'Get started',
-          href: '#',
+          href: '/contact',
         },
       },
     ]}
@@ -143,8 +143,8 @@ const metadata = {
         icon: 'tabler:chevrons-up',
       },
       {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
+        title: 'Support',
+        description: 'Questions answered via live chat or email every business day.',
         icon: 'tabler:headset',
       },
     ]}
@@ -153,7 +153,7 @@ const metadata = {
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!--<Steps
     title="A guided journey from plans to creativity"
     tagline="simplified process"
     isReversed={true}
@@ -191,7 +191,7 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  />-->
 
   <!-- FAQs Widget ******************* -->
 
@@ -208,7 +208,7 @@ const metadata = {
       {
         title: 'Is there a trial period for the different plans?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview what a solution can sound like for you.",
       },
       {
         title: 'Can I switch between plans?',
@@ -223,14 +223,14 @@ const metadata = {
       {
         title: 'Are there any hidden fees beyond the displayed cost?',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'No, the subscription cost covers all the features listed under each plan. There are no hidden fees or extra charges.',
       },
     ]}
   />
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
+  <!--<CallToAction
     title="Ready to boost your projects?"
     subtitle="Join our community of satisfied customers who have transformed their work with our templates."
     actions={[
@@ -240,5 +240,5 @@ const metadata = {
         href: '/',
       },
     ]}
-  />
+  />-->
 </Layout>
