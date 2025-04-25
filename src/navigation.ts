@@ -52,7 +52,7 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Docs', href: getPermalink('/docs') },
-        { text: 'Support Desk', href: 'https://thackerbroadcasting.freshdesk.com' },
+        { text: 'Support Desk', href: 'https://support.thackerbroadcasting.com' },
         { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
       ],
     },

@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
-import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
@@ -11,69 +10,44 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
+  <HeroText tagline="Contact">
+    <Fragment slot="title">
+      We're here to <span class="text-accent highlight">help</span>
+    </Fragment>
+  </HeroText>
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
-
-  <ContactUs
-    id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Name',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-    ]}
-    textarea={{
-      label: 'Message',
-    }}
-    disclaimer={{
-      label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
-    }}
-    description="Our support team typically responds within 24 business hours."
-  />
-
+  <!-- FRESHDESK CONTACT FORM -->
+  <div class="flex justify-center">
+    <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+    <style type="text/css" media="screen, projection">
+      @import url(https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.css); 
+    </style> 
+    <iframe title="Feedback Form" class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://support.thackerbroadcasting.com/widgets/feedback_widget/new?&widgetType=embedded&submitTitle=Contact+us" height="500px" width="85%" >
+    </iframe>
+  </div>
+  
   <!-- Features2 Widget ************** -->
-
   <Features2
-    title="We are here to help!"
     items={[
       {
         title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        description: `Question? Suggestion? Concern? We're listening.`,
       },
       {
-        title: 'Contact sales',
+        title: 'Sales support',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          'Questions about services, pricing quotes, licensing, use cases, and more.',
       },
       {
         title: 'Technical support',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
+          `Facing some sort of technical issue? We're happy to help.`,
       },
       {
         title: 'Email',
-        description: 'contact@support.com',
+        description: 'support@thackerbroadcasting.com',
         icon: 'tabler:mail',
-      },
-      {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
-      },
+      }
     ]}
   />
 </Layout>
