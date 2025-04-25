@@ -8,7 +8,7 @@ import Steps from '~/components/widgets/Steps.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Thacker Broadcasting',
   ignoreTitleTemplate: true,
 };
 ---
@@ -17,27 +17,25 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Thacker Broadcasting"
-    image={{
-      src: "https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?q=80&w=2613&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Thacker Broadcasting Homepage image"
-    }}
+    tagline="Home"
     actions={[
       {
         variant: 'primary',
         text: 'Get started',
-        href: '/contact',
+        href: '/contact/',
         icon: 'tabler:messages',
       },
-      { text: 'Learn more', href: '#features' },
+      { 
+        text: 'Learn more', 
+        href: '/services/' },
     ]}
   >
     <Fragment slot="title">
-      Broadcast Beyond with <span class="text-accent dark:text-white highlight">Thacker Broadcasting</span>
+      Broadcast Beyond with <span class="text-accent highlight">Thacker Broadcasting</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-        High quality broadcasting solutions with <span class="font-semibold">fast</span> delivery, unbeatable <span class="font-semibold">flexibility</span>, best-in-class <span class="font-semibold">maintenance</span>, and a more <span class="font-semibold">personal</span> touch.
+        High-quality broadcasting solutions with <span class="font-semibold">fast</span> delivery, unbeatable <span class="font-semibold">flexibility</span>, best-in-class <span class="font-semibold">maintenance</span>, and a more <span class="font-semibold">personal</span> touch.
     </Fragment>
   </Hero>
 
@@ -48,8 +46,8 @@ const metadata = {
   <!-- Features Widget *************** -->
 
   <Features2
-    id="features"
-    tagline="Features"
+    id="Services"
+    tagline="Services"
     title="What we offer"
     subtitle="Highly praised with the experience to back it up. All of our offerings are fully remote and personalized to your needs."
     items={[
@@ -72,6 +70,12 @@ const metadata = {
         icon: 'tabler:router',
       },
       {
+        title: 'Endpoint Management',
+        description:
+          `We'll keep your business computers up-to-date, secure, and running smooth.`,
+        icon: 'tabler:device-desktop'
+      },
+      {
         title: 'Domain Management',
         description:
           'When it matters most, your domain needs to perform. Efficient, highly-available, and redundent measures keep the traffic flowing.',
@@ -89,7 +93,8 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps 
-    title="Get your business set up with customer-centric services that better your business."
+    title="Email, chat, or support request. We're here to help."
+    subtitle="Customer-centric services that better your business. This timeline shows what a typical process looks like."
     items={[
       {
         title: 'Step 1: <span class="font-medium">Contact us</span>',

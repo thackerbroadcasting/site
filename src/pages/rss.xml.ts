@@ -15,18 +15,19 @@ export const GET = async () => {
   const posts = await fetchPosts();
 
   const rss = await getRssString({
-    title: `${SITE.name}’s Blog`,
+    title: `${SITE.name} Blog`,
     description: METADATA?.description || '',
     site: import.meta.env.SITE,
 
     items: posts.map((post) => ({
-      link: getPermalink(post.permalink, 'post'),
+      link: getPermalink(post.permalink, 'blog'),
       title: post.title,
       description: post.excerpt,
       pubDate: post.publishDate,
     })),
 
-    trailingSlash: SITE.trailingSlash,
+    //trailingSlash: SITE.trailingSlash,
+    trailingSlash: false,
   });
 
   return new Response(rss, {

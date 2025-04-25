@@ -2,7 +2,7 @@ site:
   name: Thacker Broadcasting
   site: 'https://thackerbroadcasting.com'
   base: '/'
-  trailingSlash: ignore
+  trailingSlash: 'ignore'
 
 # Default SEO metadata
 metadata:

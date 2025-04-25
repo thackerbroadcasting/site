@@ -9,8 +9,8 @@ const formattedDate = buildDate instanceof Date && !isNaN(buildDate.getTime())
 
 export const headerData = {
   links: [
-    { text: 'Home', href: '/'},
-    { text: 'Services', href: '/services'},
+    { text: 'Home', href: getPermalink('/')},
+    { text: 'Services', href: getPermalink('/services')},
     /*
     { 
       text: 'Services',
@@ -43,15 +43,15 @@ export const footerData = {
     {
       title: 'Products',
       links: [
-        { text: 'Services', href: '/services' },
-        { text: 'Pricing', href: '/pricing' },
-        { text: 'Listen', href: '/listen' },
+        { text: 'Services', href: getPermalink('/services') },
+        { text: 'Pricing', href: getPermalink('/pricing') },
+        { text: 'Listen', href: getPermalink('/listen') },
       ],
     },
     {
       title: 'Support',
       links: [
-        { text: 'Docs', href: '/docs' },
+        { text: 'Docs', href: getPermalink('/docs') },
         { text: 'Support Desk', href: 'https://thackerbroadcasting.freshdesk.com' },
         { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
       ],
@@ -61,15 +61,8 @@ export const footerData = {
       links: [
         { text: 'About', href: getPermalink('/about') },
         { text: 'Blog', href: getBlogPermalink() },
-        { text: 'Press', href: getBlogPermalink() + getPermalink('category') + '/press' },
       ],
     },
-    {
-      title: 'Site Info',
-      links: [
-        { text: `Site built: ${formattedDate}`},
-      ]
-    }
   ],
   secondaryLinks: [
     { text: 'Disclaimer', href: getPermalink('/legal/disclaimer') },
@@ -84,8 +77,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/thackerbroadcasting' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: `
-    <!--<img class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm" src="https://onwidget.com/favicon/favicon-32x32.png" alt="onWidget logo" loading="lazy"></img>-->
-    &copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/"> onWidget</a> • All rights reserved
-  `,
+  footNote: `&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved • ${formattedDate}`,
 };
