@@ -22,229 +22,113 @@ const metadata = {
     </Fragment>
   </Hero>
 
+    <!-- Content Widget **************** -->
+
+  <Content
+    title='Managed-Service Provider'
+    tagline='Enterprise-Grade services without the enterprise price'
+    items={[
+      {
+        title: 'Networking',
+        description:
+          `Wired or wireless. 50,000 clients or 50. Our network designs remain fast, secure, and resilient when it matters most.`, 
+        icon: 'tabler:brand-speedtest',
+      },
+      {
+        title: 'Endpoint Management',
+        description:
+          `Patching and monitoring. Laptops, desktops, and mobile devices. Remotely and securely. Need we say more?`,
+        icon: 'tabler:device-laptop',
+      },
+      {
+        title: 'Domain Management',
+        description:
+          `On-premises or cloud-based. Active Directory or DNS. Your domain lifecycle and management, now managed.`,
+        icon: 'tabler:cloud-computing',
+      },
+      {
+        title: 'Standard-Driven Practice',
+        description:
+          `NIST CSF, CIS Controls, COBIT. These are just some of the standards we follow. No shortcuts, no duct tape.`,
+        icon: 'tabler:lock',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      alt: 'Benefits Image',
+    }}
+  >
+  </Content>
+
   <!-- Content Widget **************** -->
 
   <Content
+    isReversed
+    title='Music Broadcasting'
+    tagline='A sound to match your brand'
     items={[
       {
-        title: 'Managed Customization',
+        title: 'Branded Identity',
         description:
-          `Each 'station' is unique, and should be treated as such. You're in control. Whether you want to manage everything on our infrastructure, or you want us to manage everything, it is always your call.`,
-        icon: 'tabler:settings',
+          `Your brand needs a unique sound. With a currated station, we match your vibe to create a station you and your customers will love.`,
+        icon: 'tabler:music',
       },
       {
-        title: 'Easy-to-use',
+        title: 'Fully Licensed',
         description:
-          'Our system is, well, easy-to-use! Web-based, mobile-friendly, and of course, reliable.',
+          `We'll take care of the licensing. Rest assured, every track we play is properly licensed.`,
         icon: 'tabler:wand',
       },
       {
-        title: 'Clear Communication',
+        title: 'High Quality',
         description:
-          `We want to be transparent about our operations. Maintainence, uplanned outages, you name it. That's why we have our status page.`,
+          `Crystal-clear music makes the experience that much better and listening on any device that much easier.`,
         icon: 'tabler:bubble',
+      },
+      {
+        title: `Managed and Customizable`,
+        description:
+          `Easily manage music schedules, moods, or track updates remotely -- or let us handle it for you.`,
+        icon: 'tabler:replace'
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      src: 'https://images.unsplash.com/photo-1618609377864-68609b857e90?q=80&w=1024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&h=576',
       alt: 'Features Image',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Music Broadcasting</h3>
-    </Fragment>
   </Content>
 
   <!-- Content Widget **************** -->
 
   <Content
-    isReversed
+    title='Podcasts'
+    tagline='Production, distribution, growth -- à la carte or all-in'
     items={[
       {
-        title: 'Time Savings',
+        title: 'Distribution. Hassle-Free.',
         description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
+          `No matter who edits your audio, we'll make sure it is available around the world.`,
         icon: 'tabler:clock',
       },
       {
-        title: 'Professional Appearance',
+        title: 'Flexible and Modular',
         description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
+          `Whether we produce your podcast or just distribute it, you don't need to worry. Our flexible offerings allow you to only pay for what you need.`,
         icon: 'tabler:school',
       },
       {
-        title: 'Cost-Efficiency',
+        title: 'Takeoff Imminent',
         description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
+          `Whether you're a new or seasoned podcaster, we help build your podcast into something that is heard, shared, and remembered.`,
+        icon: 'tabler:rocket',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      src: 'https://images.unsplash.com/photo-1567596296091-0a257a028e72?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       alt: 'Benefits Image',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Podcasts</h3>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    items={[
-      {
-        title: 'Time Savings',
-        description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
-        icon: 'tabler:clock',
-      },
-      {
-        title: 'Professional Appearance',
-        description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Cost-Efficiency',
-        description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
-      },
-      {
-        title: 'Instant Download',
-        description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Network Management</h3>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-  isReversed
-    items={[
-      {
-        title: 'Time Savings',
-        description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
-        icon: 'tabler:clock',
-      },
-      {
-        title: 'Professional Appearance',
-        description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Cost-Efficiency',
-        description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
-      },
-      {
-        title: 'Instant Download',
-        description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Endpoint Management</h3>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    items={[
-      {
-        title: 'Time Savings',
-        description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
-        icon: 'tabler:clock',
-      },
-      {
-        title: 'Professional Appearance',
-        description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Cost-Efficiency',
-        description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
-      },
-      {
-        title: 'Instant Download',
-        description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Domain Management</h3>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    items={[
-      {
-        title: 'Time Savings',
-        description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
-        icon: 'tabler:clock',
-      },
-      {
-        title: 'Professional Appearance',
-        description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Cost-Efficiency',
-        description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
-      },
-      {
-        title: 'Instant Download',
-        description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Best Practices</h3>
-    </Fragment>
   </Content>
 
   <!-- CallToAction Widget *********** -->
@@ -253,11 +137,11 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Dive in',
+        text: 'Contact us',
         href: '/contact/',
       },
     ]}
     title="Dive into our services"
-    subtitle="Whether you're in business, education, or retails, our services are here to elevate your -- and your customers -- experience."
+    subtitle="Whether you're in business, education, or retail, our services are here to elevate your -- and your customer's -- experience."
   />
 </Layout>
