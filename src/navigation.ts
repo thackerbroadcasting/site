@@ -2,10 +2,32 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 const buildDateString = import.meta.env.BUILD_TIMESTAMP;
 const buildDate = new Date(buildDateString)
-
 const formattedDate = buildDate instanceof Date && !isNaN(buildDate.getTime())
-  ? buildDate.toISOString().replace('T', ' ').split('.')[0]
-  : new Date().toISOString().replace('T', ' ').split('.')[0]
+  ? new Intl.DateTimeFormat('en-GB', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZone: 'UTC',
+    hour12: false,
+    timeZoneName: 'short'
+    }).format(buildDate)
+  : new Intl.DateTimeFormat('en-GB', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    timeZone: 'UTC',
+    hour12: false,
+    timeZoneName: 'short'
+    }).format(new Date()
+  );
 
 export const headerData = {
   links: [
@@ -77,5 +99,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/thackerbroadcasting' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: `&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved • ${formattedDate}`,
+  footNote: `<center>&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved<br>Updated ${formattedDate}</center>`,
 };
