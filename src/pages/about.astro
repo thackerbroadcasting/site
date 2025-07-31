@@ -1,5 +1,4 @@
 ---
-import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Note from '~/components/widgets/Note.astro';
@@ -31,7 +30,7 @@ const metadata = {
   <Stats
     title="Statistics about us"
     stats={[
-      { title: 'Office', amount: '1' },
+      { title: 'Offices', amount: '0' },
       { title: 'Employee', amount: '1' }
     ]}
   />
@@ -45,7 +44,7 @@ const metadata = {
     isBeforeContent={true}
     items={[
       {
-        title: '1 office',
+        title: '0 offices',
         description:
           `A remote-based company like Thacker Broadcasting doesn't require offices. Employees are able to to work from anywhere at anytime they choose.`,
         icon: 'tabler:home-off',
@@ -89,39 +88,4 @@ const metadata = {
     ]}
   />
 
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Our locations"
-    tagline="Find us"
-    columns={1}
-    items={[
-      {
-        title: 'Online',
-        description: 'thackerbroadcasting.com',
-      },
-    ]}
-  />
-
-  <!-- Features2 Widget ************** -->
-
-  <Features2
-    title="Technical Support"
-    tagline="Contact us"
-    columns={2}
-    items={[
-      {
-        title: 'Support Desk',
-        description:
-          `We're always a message away from assisting you in your journey.`,
-        icon: 'tabler:messages',
-      },
-      {
-        title: 'Email us',
-        description:
-          `Our email is always available.`,
-        icon: 'tabler:mail',
-      },
-    ]}
-  />
 </Layout>
