@@ -1,0 +1,72 @@
+---
+import HeroText from '~/components/widgets/HeroText.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Listen',
+};
+---
+
+<Layout metadata={metadata}>
+  
+    <!-- Hero Widget ******************* -->
+  
+    <HeroText
+      tagline="Demos"
+      subtitle="Whether you like our lineup or you're actively looking for a music system replacement, these stations are available for you to listen to. They are not monetized in any way."
+    >
+      <Fragment slot="title">
+        Listen <span class="text-accent highlight">Live</span>
+      </Fragment>
+    </HeroText>
+  
+    <!-- Features2 Widget ************** -->
+  
+    <Features2
+        columns={2}
+        items={[
+            {
+                title: "The Mix",
+                description: `<div>
+                <!-- LIGHT MODE -->
+                <iframe class="dark:hidden w-full h-full border-0" src="https://live.thackerbroadcasting.com/public/z96_mix/embed?theme=light" allowtransparency="true" title="The Mix Light Embed"></iframe>
+                <!-- DARK MODE -->
+                <iframe class="hidden dark:block w-full h-full border-0" src="https://live.thackerbroadcasting.com/public/z96_mix/embed?theme=dark" allowtransparency="true" title="The Mix Dark Embed"></iframe>
+                </div>`,
+                callToAction: {
+                    variant: 'tertiary',
+                    text: "Site",
+                    href: "https://z96mix.com"
+                }
+            },
+            {
+                title: "The Elk",
+                description: `<div>
+                <!-- LIGHT MODE -->
+                <iframe class="dark:hidden w-full h-full border-0" src="https://live.thackerbroadcasting.com/public/98.9_the_elk/embed?theme=light" allowtransparency="true" title="The Elk Light Embed"></iframe>
+                <!-- DARK MODE -->
+                <iframe class="hidden dark:block w-full h-full border-0" src="https://live.thackerbroadcasting.com/public/98.9_the_elk/embed?theme=dark" allowtransparency="true" title="The Elk Dark Embed"></iframe>
+                </div>`,
+                callToAction: {
+                    variant: 'tertiary',
+                    text: "Site",
+                    href: "https://elkradio.com"
+                }
+            },
+            {
+                title: "The Mess (Testbed)",
+                description: `<div>
+                <!-- LIGHT MODE -->
+                <iframe class="dark:hidden w-full h-full border-0" src="https://live.thackerbroadcasting.com/public/1035_colorado_mess/embed?theme=light" allowtransparency="true" title="The Mess Light Embed"></iframe>
+                <!-- DARK MODE -->
+                <iframe class="hidden dark:block w-full h-full border-0" src="https://live.thackerbroadcasting.com/public/1035_colorado_mess/embed?theme=dark" allowtransparency="true" title="The Mess Dark Embed"></iframe>
+                </div>`,
+                callToAction: {
+                    variant: 'tertiary',
+                    text: "Testing station. May not perform correctly."
+                }
+            }
+        ]}
+    >
+    </Features2>

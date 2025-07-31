@@ -13,7 +13,7 @@ const createPath = (...params: string[]) => {
   return '/' + paths + (SITE.trailingSlash && paths ? '/' : '');
 };
 
-const BASE_PATHNAME = SITE.base || '/';
+const BASE_PATHNAME = SITE.base //|| '/';
 
 export const cleanSlug = (text = '') =>
   trimSlash(text)
@@ -62,7 +62,7 @@ export const getPermalink = (slug = '', type = 'page'): string => {
       break;
 
     case 'asset':
-      permalink = getAsset(slug);
+      permalink = getAsset(trimSlash(slug));
       break;
 
     case 'category':
@@ -79,7 +79,7 @@ export const getPermalink = (slug = '', type = 'page'): string => {
 
     case 'page':
     default:
-      permalink = createPath(slug);
+      permalink = createPath(trimSlash(slug));
       break;
   }
 
@@ -98,7 +98,7 @@ export const getAsset = (path: string): string =>
   [BASE_PATHNAME, path]
     .map((el) => trimSlash(el))
     .filter((el) => !!el)
-    .join('/');
+    //.join('/');
 
 /** */
 const definitivePermalink = (permalink: string): string => createPath(BASE_PATHNAME, permalink);

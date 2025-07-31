@@ -109,14 +109,14 @@ export default defineConfig({
           ],
         }
       ],
-      social: {
-        github: 'https://github.com/thackerbroadcasting',
-        'x.com': 'https://x.com/thackbroadcast',
-        instagram: 'https://instagram.com/thackerbroadcasting',
-        facebook: 'https://www.facebook.com/thackerbroadcasting',
-        youtube: 'https://www.youtube.com/@ThackerBroadcastingStudios',
-        linkedin: 'https://www.linkedin.com/company/thacker-broadcasting',
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/thackerbroadcasting' },
+        { icon: 'x.com', label: 'X', href: 'https://x.com/thackbroadcast' },
+        { icon: 'instagram', label: 'Instagram', href: 'https://instagram.com/thackerbroadcasting' },
+        { icon: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/thackerbroadcasting' },
+        { icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@ThackerBroadcastingStudios' },
+        { icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/thacker-broadcasting' }, 
+      ],
       logo: {
         dark: './src/assets/images/logo/logo-dark.svg',
         light: './src/assets/images/logo/logo-light.svg',

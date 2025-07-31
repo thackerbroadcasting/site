@@ -35,7 +35,7 @@ export const headerData = {
     { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Blog', href: getBlogPermalink() }
   ],
-  actions: [{ text: 'Broadcast Portal', href: 'https://live.thackerbroadcasting.com', target: '_blank' }],
+  actions: [{ text: 'Broadcasting Portal', href: 'https://live.thackerbroadcasting.com', target: '_blank' }],
 };
 
 export const footerData = {
@@ -44,7 +44,6 @@ export const footerData = {
       title: 'Products',
       links: [
         { text: 'Services', href: getPermalink('/services') },
-        { text: 'Pricing', href: getPermalink('/pricing') },
         { text: 'Listen', href: getPermalink('/listen') },
       ],
     },
@@ -54,6 +53,7 @@ export const footerData = {
         { text: 'Docs', href: getPermalink('/docs') },
         { text: 'Support Desk', href: 'https://support.thackerbroadcasting.com' },
         { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
+        { text: 'Email', href: 'mailto:support@thackerbroadcasting.com?Subject=Support Request:' },
       ],
     },
     {
