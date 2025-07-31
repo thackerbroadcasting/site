@@ -5,6 +5,7 @@ import Note from '~/components/widgets/Note.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Thacker Broadcasting',
@@ -134,15 +135,25 @@ const metadata = {
     ]}
   />
 
-  <!-- Stats Widget ****************** -->
-<!--
-  <Stats
-    stats={[
-      { title: 'Clients', amount: '2' },
-      { title: 'Uptime', amount: '99.9%' },
+  <!-- CallToAction Widget **************** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Dive in',
+        href: '/services/',
+      },
+      {
+        variant: 'secondary',
+        text: 'Contact us',
+        href: '/contact/'
+      }
     ]}
+    title="Dive into our services"
+    subtitle="Whether you're in business, education, or retail, our services are here to elevate your -- and your customer's -- experience."
   />
--->
+
   <!-- BlogLatestPost Widget **************** -->
 
   <BlogLatestPosts
