@@ -33,26 +33,6 @@ export const headerData = {
   links: [
     { text: 'Home', href: getPermalink('/')},
     { text: 'Services', href: getPermalink('/services')},
-    /*
-    { 
-      text: 'Services',
-      href: getPermalink('/services'),
-      links: [
-        {
-          text: 'Overview',
-          href: getPermalink('/services'),
-        },
-        {
-          text: 'Listen Live',
-          href: '/listen',
-        },
-        {
-          text: 'Podcasting',
-          href: 'https://podcasts.thackerbroadcasting.com'
-        }
-      ] 
-    },
-    */
     { text: 'About', href: getPermalink('/about') },
     { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Blog', href: getBlogPermalink() }
@@ -99,5 +79,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/thackerbroadcasting' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: `<center>&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved<br>Updated ${formattedDate}</center>`,
+  footNote: `<center>&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved<br>Last build: ${formattedDate}</center>`,
 };

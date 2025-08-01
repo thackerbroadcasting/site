@@ -1,5 +1,8 @@
 ---
 title: Disclaimer
+lastUpdated: false
+sidebar:
+    order: 2
 ---
 
 _Revision **1**. Last updated: **December 16, 2023**._
