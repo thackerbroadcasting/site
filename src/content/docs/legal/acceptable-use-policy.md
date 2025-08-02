@@ -1,12 +1,15 @@
 ---
 title: Acceptable Use Policy
 lastUpdated: false
+sidebar:
+    badge:
+        text: Updated
+        variant: success
 ---
 
-_Revision **1**. Last updated **June 3, 2024**._
+_Revision **2**. Last updated **August 1, 2025**._
 
-This Acceptable Use Policy ("**Policy**") is part of our Terms and Conditions ("**Legal Terms**") and should therefore be read alongside our main Legal Terms:
-[https://thackerbroadcasting.com/legal/terms-conditions](/legal/terms-conditions). If you do not agree with these Legal Terms, please refrain from using our Services. Your continued use of our Services implies acceptance of these Legal Terms.
+This Acceptable Use Policy ("**Policy**") is part of our Terms and Conditions ("**Legal Terms**") and should therefore be read alongside our main [Legal Terms](/legal/terms-conditions). If you do not agree with these Legal Terms, please refrain from using our Services. Your continued use of our Services implies acceptance of these Legal Terms.
 
 Please carefully review this Policy which applies to any and all:
 
@@ -47,8 +50,7 @@ You also acknowledge that you may not:
 - Sell or otherwise transfer your profile.
 - Use a buying agent or purchasing agent to make purchases on the Services.
 
-If you subscribe to our Services, you understand, acknowledge, and agree that you
-may not, except if expressly permitted:
+If you subscribe to our Services, you understand, acknowledge, and agree that you may not, except if expressly permitted:
 
 - Engage in any use, including modification, copying, redistribution, publication, display, performance, or retransmission, of any portions of any Services, other than as expressly permitted by this Policy, without the prior written consent of Thacker Broadcasting, LLC, which consent Thacker Broadcasting, LLC may grant or refuse in its sole and absolute discretion.
 - Reconstruct or attempt to discover any source code or algorithms of the Services, or any portion thereof, by any means whatsoever.
@@ -67,7 +69,8 @@ Some areas of the Services may allow users to upload, transmit, or post Contribu
 You warrant that:
 - you are the creator and owner of or have the necessary licenses, rights, consents, releases, and permissions to use and to authorize us, the Services, and other users of the Services to use your Contributions in any manner contemplated by the Services and this Policy;
 - all your Contributions comply with applicable laws and are original and true (if they represent your opinion or facts);
-- the creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party; and you have the verifiable consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Services and this Policy.
+- the creation, distribution, transmission, public display, or performance, and the accessing, downloading, or copying of your Contributions do not and will not infringe the proprietary rights, including but not limited to the copyright, patent, trademark, trade secret, or moral rights of any third party; and
+- you have the verifiable consent, release, and/or permission of each and every identifiable individual person in your Contributions to use the name or likeness of each and every such identifiable individual person to enable inclusion and use of your Contributions in any manner contemplated by the Services and this Policy.
 
 You also agree that you will not post, transmit, or upload any (or any part of a) Contribution that:
 - is in breach of applicable laws, regulation, court order, contractual obligation, this Policy, our Legal Terms, a legal duty, or that promotes or facilitates fraud or illegal activities;
@@ -95,16 +98,12 @@ When your Contribution is a review or rating, you also agree that:
 - you do not and will not organize a campaign encouraging others to post reviews, whether positive or negative.
 
 ## Reporting a Breach of this Policy
-We may but are under no obligation to review or moderate the Contributions made on
-the Services and we expressly exclude our liability for any loss or damage resulting
-from any of our users' breach of this Policy.
+We may but are under no obligation to review or moderate the Contributions made on the Services and we expressly exclude our liability for any loss or damage resulting from any of our users' breach of this Policy.
+
 If you consider that any Content or Contribution:
-breach this Policy, please email us at contact@thackerbroadcasting.com, visit
-https://thackerbroadcasting.com/contact, or refer to the contact details at the
-bottom of this document to let us know which Content or Contribution is in
-breach of this Policy and why; or
-infringe any third-party intellectual property rights, please email us at
-contact@thackerbroadcasting.com.
+- breach this Policy, please email us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com), visit https://thackerbroadcasting.com/contact, or refer to the contact details at the bottom of this document to let us know which Content or Contribution is in breach of this Policy and why; or
+- infringe any third-party intellectual property rights, please email us at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com).
+
 We will reasonably determine whether a Content or Contribution breaches this Policy.
 
 ## Consequences of Breaching this Policy
@@ -123,4 +122,12 @@ Guidance violations will result in posting abilities being restricted by first b
 Read our disclaimer at [https://thackerbroadcasting.com/legal/disclaimer](https://thackerbroadcasting.com/legal/disclaimer).
 
 ## How can you contact us about this policy?
-If you have any further questions or comments or wish to report any problematic Content or Contribution, you may contact us by email at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com) or with our contact form at [https://thackerbroadcasting.com/contact](https://thackerbroadcasting.com/contact).
+If you have any further questions or comments or wish to report any problematic Content or Contribution, you may contact us by email at [contact@thackerbroadcasting.com](mailto:contact@thackerbroadcasting.com), with our contact form at [https://thackerbroadcasting.com/contact](https://thackerbroadcasting.com/contact), or by mail at
+
+```
+Thacker Broadcasting, LLC
+7533 Center View Ct
+STE 4804
+West Jordan, UT 84084
+United States
+```
