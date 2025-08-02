@@ -19,11 +19,11 @@ This privacy policy for Thacker Broadcasting, LLC (doing business as Thacker Bro
 ## Summary of Key Points
 _**This summary provides key points from our privacy policy, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents to find the section you are looking for.**_
 
-**What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about [personal information you disclose to us](#1-what-information-do-we-collect).
+**What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about [personal information you disclose to us](#personal-information-provided-by-you).
 
 **Do we process any sensitive personal information?** Some of the information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.
 
-**Do we receive any information from third parties?** We may collect information from public databases, marketing partners, social media platforms, and other outside sources. Learn more about [information collected from other sources]().
+**Do we receive any information from third parties?** We may collect information from public databases, marketing partners, social media platforms, and other outside sources. Learn more about [information collected from other sources](#information-collected-from-other-sources).
 
 **How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#2-how-do-we-process-your-information).
 
