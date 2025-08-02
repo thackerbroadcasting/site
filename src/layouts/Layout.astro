@@ -17,6 +17,7 @@ import { ClientRouter } from 'astro:transitions';
 
 import type { MetaData as MetaDataType } from '~/types';
 import FreshdeskWidget from '~/components/widgets/FreshdeskWidget.astro';
+import TermlyWidget from '~/components/widgets/TermlyWidget.astro';
 
 export interface Props {
   metadata?: MetaDataType;
@@ -29,6 +30,7 @@ const { language, textDirection } = I18N;
 <!doctype html>
 <html lang={language} dir={textDirection} class="2xl:text-[20px]">
   <head>
+    <TermlyWidget />
     <CommonMeta />
     <Favicons />
     <CustomStyles />

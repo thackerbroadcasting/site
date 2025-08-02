@@ -53,9 +53,9 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Docs', href: getPermalink('/docs') },
-        { text: 'Support Desk', href: 'https://support.thackerbroadcasting.com' },
-        { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
         { text: 'Email', href: 'mailto:support@thackerbroadcasting.com?Subject=Support Request:' },
+        { text: 'Status', href: 'https://status.thackerbroadcasting.com' },
+        { text: 'Support Desk', href: 'https://support.thackerbroadcasting.com' },       
       ],
     },
     {
@@ -64,6 +64,16 @@ export const footerData = {
         { text: 'About', href: getPermalink('/about') },
         { text: 'Blog', href: getBlogPermalink() },
       ],
+    },
+    {
+      title: 'Legal',
+      links: [
+        { text: 'Acceptable Use Policy', href: getPermalink('/legal/acceptable-use-policy') },
+        //{ text: 'Consent Preferences', class: 'termly-display-preferences', href: '#' },
+        { text: 'Cookie Policy', href: getPermalink('/legal/cookies') },
+        { text: 'Privacy Policy', href: getPermalink('/legal/privacy-policy') },
+        { text: 'Terms & Conditions', href: getPermalink('/legal/terms-conditions') },
+      ]
     },
   ],
   secondaryLinks: [
