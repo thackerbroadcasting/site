@@ -4,7 +4,7 @@ sidebar:
     order: 1
 ---
 
-We used a myriad of systems that are constantly changing. While we like to keep things consistent, we're always looking for ways to improve our current systems while giving our customers the best experience.
+We use a myriad of systems that are constantly changing. While we like to keep things consistent, we're always looking for ways to improve our current systems while giving our customers the best experience.
 
 ## MSP
 This section could be very long if we listed every service that we utilize and their function. We'll suffice it to say that we utilize and manage through various brands, including but not limited to: Microsoft, Amazon, Google, Cisco, Ubiquiti, Debian, Ubuntu, Red Hat, Fedora, Avigilon, and Axis.
