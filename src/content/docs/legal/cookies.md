@@ -1,9 +1,13 @@
 ---
 title: Cookie Policy
 lastUpdated: false
+sidebar:
+    badge:
+        text: Updated
+        variant: success
 ---
 
-_Revision **2**. Last updated **June 2, 2024**._
+_Revision **3**. Last updated **August 1, 2025**._
 
 This Cookie Policy explains how Thacker Broadcasting, LLC ("**Company**," "**we**," "**us**," and "**our**") uses cookies and similar technologies to recognize you when you visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com) ("**Website**"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
@@ -25,37 +29,45 @@ specific cookies served may vary depending on the specific Online Properties you
 These cookies are strictly necessary to provide you with services available through our Website and to use some of its features, such as access to secure areas.
 
 ```yaml
-Name: cf_clearance
-Purpose: Cloudflare clearance cookie stores the proof of challenge passed. It is used to no longer issue a challenge if present. It is required to reach an origin server.
-Provider: .thackerbroadcasting.com
+Name: __cf_bm
+Purpose: Cloudflare places the cookie on end-user devices that access customer sites protected by Bot Management or Bot Fight Mode.
+Provider: .support.thackerbroadcasting.com
 Service: Cloudflare [View Service Privacy Policy](https://www.cloudflare.com/privacypolicy/)
 Type: http_cookie
-Expires in: 11 months 30 days
+Expires in: 29 minutes
+```
+
+```yaml
+Name: _x_w
+Purpose: Allows the website to recognize the visitor, in order to optimize the chat-box functionality.
+Provider: support.thackerbroadcasting.com
+Service: Freshservice [View Service Privacy Policy](https://www.freshworks.com/privacy/)
+Type: server_cookie
+Expires in: session
+```
+## Analytics and customization cookies
+These cookies collect information that is used either in aggregate form to help us understand how our Website is being used or how efective our marketing campaigns are, or to help us customize our Website for you.
+
+```yaml
+Name: s7
+Purpose: Gather data regarding site usage and user behavior on the website.
+Provider: support.thackerbroadcasting.com
+Service: Adobe Analytics
+Type: server_cookie
+Expires in: session
+```
+
+```yaml
+Name: s7
+Purpose: Gather data regarding site usage and user behavior on the website.
+Provider: thackerbroadcasting.com
+Service: Adobe Analytics
+Type: html_local_storage
+Expires in: persistent
 ```
 
 ## Unclassified cookies
 These are cookies that have not yet been categorized. We are in the process of classifying these cookies with the help of their providers.
-
-``` yaml
-Name: crisp-client%2Fsession%2F18dab3b9-1e15-4425-95db-ea865c57c259
-Provider: .thackerbroadcasting.com
-Type: http_cookie
-Expires in: 5 months 30 days
-```
-
-```yaml
-Name: crisp-client/session/18dab3b9-1e15-4425-95db-ea865c57c259:e
-Provider: thackerbroadcasting.com
-Type: html_local_storage
-Expires in: persistent
-```
-
-```yaml
-Name: crisp-client/session/18dab3b9-1e15-4425-95db-ea865c57c259
-Provider: thackerbroadcasting.com
-Type: html_local_storage
-Expires in: persistent
-```
 
 ```yaml
 Name: player_volume
