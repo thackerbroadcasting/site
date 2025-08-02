@@ -7,23 +7,23 @@ lastUpdated: false
         #variant: success
 ---
 
-_Revision **4**. Last updated **June 29, 2024**._
+_Revision **5**. Last updated **August 1, 2025**._
 
-This privacy notice for Thacker Broadcasting, LLC (doing business as Thacker Broadcasting) ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("**Services**"), such as when you:
+This privacy policy for Thacker Broadcasting, LLC (doing business as Thacker Broadcasting) ("**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("**Services**"), such as when you:
 
-- Visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com), or any website of ours that links to this privacy notice
-- Engage with us in other related ways, including any sales, marketing, or events
+- Visit our website at [https://thackerbroadcasting.com](https://thackerbroadcasting.com), or any website of ours that links to this privacy policy.
+- Engage with us in other related ways, including any sales, marketing, or events.
 
-**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
+**Questions or concerns?** Reading this privacy policy will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## Summary of Key Points
-_**This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents to find the section you are looking for.**_
+_**This summary provides key points from our privacy policy, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents to find the section you are looking for.**_
 
 **What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more about [personal information you disclose to us](#1-what-information-do-we-collect).
 
-**Do we process any sensitive personal information?** We do not process sensitive personal information.
+**Do we process any sensitive personal information?** Some of the information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.
 
-**Do we receive any information from third parties?** We do not receive any information from third parties.
+**Do we receive any information from third parties?** We may collect information from public databases, marketing partners, social media platforms, and other outside sources. Learn more about [information collected from other sources]().
 
 **How do we process your information?** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#2-how-do-we-process-your-information).
 
@@ -46,13 +46,13 @@ We collect personal information that you voluntarily provide to us when you expr
 The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make, and the products and features you use. The personal information we collect may include the following:
 
 - names
-- debit/credit card numbers
-- contact preferences
-- job titles
-- mailing addresses
-- email addresses
 - phone numbers
-- contact or authentication data
+- email addresses
+- mailing addresses
+- billing addresses
+- job titles
+- contact preferences
+- debit/credit card numbers
 
 ### Sensitive Information
 We do not process sensitive information.
@@ -72,6 +72,20 @@ The information we collect includes:
 - **Device Data.** We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers,location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information.
 - **Location Data.** We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services.
 
+### Information collected from other sources
+_**In Short:** We may collect limited data from public databases, marketing partners, and other outside sources._
+
+In order to enhance our ability to provide relevant marketing, offers, and services to you and update our records, we may obtain information about you from other sources, such as public databases, joint marketing partners, affiliate programs, data providers, and from other third parties. This information is used for the purposes of targeted advertising and event promotion. This information includes:
+
+- mailing addresses
+- job titles
+- email addresses
+- phone numbers
+- intent data (or user behavior data)
+- Internet Protocol (IP) addresses
+- social media profiles
+- social media URLs
+- custom profiles
 
 ## 2. How do we process your information?
 _**In Short:** We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent._
@@ -85,6 +99,8 @@ _**In Short:** We process your information to provide, improve, and administer o
 - **To evaluate and improve our Services, products, marketing, and your experience.** We may process your information when we believe it is necessary to identify usage trends, determine the effectiveness of our promotional campaigns, and to evaluate and improve our Services, products, marketing, and your experience.
 - **To comply with our legal obligations.** We may process your information to comply with our legal obligations, respond to legal requests, and exercise, establish, or defend our legal rights.
 - **To identify usage trends.** We may process information about how you use our Services to better understand how they are being used so we can improve them.
+- **To send administrative information to you.** We may process your information to send you details about our products and services, changes to our terms and policies, and other similar information.
+- **To fulfill and manage orders.** We may process your information to fulfill and manage your orders, payments, returns, and exchanges made through the Services.
 
 
 ## 3. When and with whom do we share your personal information?
@@ -93,7 +109,8 @@ _**In Short:** We may share information in specific situations described in this
 We may need to share your personal information in the following situations:
 
 - **Business Transfers.** We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.
-- **Affiliates.** We may share your information with our affiliates, in which case we will require those affiliates to honor this privacy notice. Affiliates include our parent company and any subsidiaries, joint venture partners, or other companies that we control or that are under common control with us.
+- **Affiliates.** We may share your information with our affiliates, in which case we will require those affiliates to honor this privacy policy. Affiliates include our parent company and any subsidiaries, joint venture partners, or other companies that we control or that are under common control with us.
+- **Business Partners.** We may share your information with our business partners to offer you certain products, services, or promotions.
 
 
 ## 4. Do we use cookies and other tracking technologies?
@@ -108,9 +125,9 @@ To the extent these online tracking technologies are deemed to be a "sale"/"shar
 Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice: [https://thackerbroadcasting.com/legal/cookies](https://thackerbroadcasting.com/legal/cookies).
 
 ## 5. How long do we keep your information?
-_**In Short:** We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law._
+_**In Short:** We keep your information for as long as necessary to fulfill the purposes outlined in this privacy policy unless otherwise required by law._
 
-We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 1 year.
+We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy policy, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us keeping your personal information for longer than 1 year.
 
 When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
 
@@ -132,36 +149,31 @@ If we are relying on your consent to process your personal information, which ma
 
 However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
 
-### Account Information
-If you would at any time like to review or change the information in your account or terminate your account, you can contact us using the contact information provided.
-
-Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
-
 ### Cookies and similar technologies
 Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. For further information, please see our Cookie Notice: [https://thackerbroadcasting.com/legal/cookies](https://thackerbroadcasting.com/legal/cookies).
 
 If you have questions or comments about your privacy rights, you may email us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
 
 ## 9. Controls for Do-Not-Track features
-Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
+Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy policy.
 
 California law requires us to let you know how we respond to web browser DNT signals. Because there currently is not an industry or legal standard for recognizing or honoring DNT signals, we do not respond to them at this time.
 
 ## 10. Do United States residents have specific privacy rights?
-_**In Short:** If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Montana, New Hampshire, New Jersey, Oregon, Tennessee, Texas, Utah, or Virginia, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it, correct inaccuracies, get a copy of, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. More information is provided below._
+_**In Short:** If you are a resident of California, Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, or Virginia, you may have the right to request access to and receive details about the personal information we maintain about you and how we have processed it, correct inaccuracies, get a copy of, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. More information is provided below._
 
 ### Categories of Personal Information we collect
 We have collected the following categories of personal information in the past twelve (12) months:
 
 | Category                                                                      | Examples                                                                                                                                                                                                 | Collected? |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| A. Identifiers                                                                | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | No        |
-| B. Personal information as defined in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information                                                                                                          | No        |
+| A. Identifiers                                                                | Contact details, such as real name, alias, postal address, telephone or mobile contact number, unique personal identifier, online identifier, Internet Protocol address, email address, and account name | No         |
+| B. Personal information as defined in the California Customer Records statute | Name, contact information, education, employment, employment history, and financial information                                                                                                          | No         |
 | C. Protected classification characteristics under state or federal law        | Gender and date of birth                                                                                                                                                                                 | No         |
 | D. Commercial information                                                     | Transaction information, purchase history, financial details, and payment information                                                                                                                    | No         |
-| E. Biometric information                                                      | Fingerprints and voiceprints                                                                                                                                                                             | No         |
-| F. Internet or other similar network activity                                 | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements                                                | YES         |
-| G. Geolocation data                                                           | Device location                                                                                                                                                                                          | YES         |
+| E. Biometric information                                                      | Fingerprints and voiceprints                                                                                                                                                                             | YES        |
+| F. Internet or other similar network activity                                 | Browsing history, search history, online behavior, interest data, and interactions with our and other websites, applications, systems, and advertisements                                                | No         |
+| G. Geolocation data                                                           | Device location                                                                                                                                                                                          | YES        |
 | H. Audio, electronic, visual, thermal, olfactory, or similar information      | Images and audio, video or call recordings created in connection with our business activities                                                                                                            | No         |
 | I. Professional or employment-related information                             | Business contact details in order to provide you our Services at a business level or job title, work history, and professional qualifications if you apply for a job with us                             | No         |
 | J. Education Information                                                      | Student records and directory information                                                                                                                                                                | No         |
@@ -176,9 +188,8 @@ We may also collect other personal information outside of these categories throu
 
 We will use and retain the collected personal information as needed to provide the Services or for:
 
-- **Category F** - As long as the user has an account with us
-- **Category G** - As long as the user has an account with us
-
+- **Category E** - As long as the user has an account with us
+- **Category G** - 1 year
 
 ### Sources of Personal Information
 Learn more about the sources of personal information we collect in "[What information do we collect?](#1-what-information-do-we-collect)"
@@ -205,13 +216,17 @@ You have rights under certain US state data protection laws. However, these righ
 
 Depending upon the state where you live, you may also have the following rights:
 
-- Right to obtain a list of the categories of third parties to which we have disclosed personal data (as permitted by applicable law, including California's and Delaware's privacy law)
-- Right to obtain a list of specific third parties to which we have disclosed personal data (as permitted by applicable law, including Oregon’s privacy law)
-- Right to limit use and disclosure of sensitive personal data (as permitted by applicable law, including California’s privacy law)
-- Right to opt out of the collection of sensitive data and personal data collected through the operation of a voice or facial recognition feature (as permitted by applicable law, including Florida’s privacy law)
+- Right to access the categories of personal data being processed (as permitted by applicable law, including the privacy law in Minnesota)
+- Right to obtain a list of the categories of third parties to which we have disclosed personal data (as permitted by applicable law, including the privacy law in California, Delaware, and Maryland)
+- Right to obtain a list of specific third parties to which we have disclosed personal data (as permitted by applicable law, including the privacy law in Minnesota and Oregon)
+- Right to review, understand, question, and correct how personal, data has been profiled (as permitted by applicable law, including the privacy law in Minnesota)
+- Right to limit use and disclosure of sensitive personal data (as permitted by applicable law, including the privacy law in California)
+- Right to opt out of the collection of sensitive data and personal data collected through the operation of a voice or facial recognition feature (as permitted by applicable law, including the privacy law in Florida)
 
 ### How to Exercise Your Rights
 To exercise these rights, you can contact us by visiting [https://thackerbroadcasting.com/contact](https://thackerbroadcasting.com/contact), by emailing us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com), or by referring to the contact details at the bottom of this document.
+
+We will honor your opt-out preferences if you enact the Global Privacy Control (GPC) opt-out signal on your browser.
 
 Under certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.
 
@@ -229,10 +244,19 @@ California Civil Code Section 1798.83, also known as the "Shine The Light" law, 
 ## 11. Do we make updates to this notice?
 _**In Short:** Yes, we will update this notice as necessary to stay compliant with relevant laws._
 
-We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+We may update this privacy policy from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy policy, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information.
 
 ## 12. How can you contact us about this notice?
-If you have questions or comments about this notice, you may email us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
+If you have questions or comments about this notice, you may email us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com), or contact us by mail at:
+
+```
+Thacker Broadcasting, LLC
+Data Protection Officer
+7533 S Center View Ct
+STE 4804
+West Jordan, UT 84084
+United States
+```
 
 ## 13. How can you review, update, or delete the data we collect from you?
 Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please contact us at [legal@thackerbroadcasting.com](mailto:legal@thackerbroadcasting.com).
