@@ -1,10 +1,10 @@
 ---
 title: Privacy Policy
 lastUpdated: false
-#sidebar:
-    #badge:
-        #text: Updated
-        #variant: success
+sidebar:
+    badge:
+        text: Updated
+        variant: success
 ---
 
 _Revision **5**. Last updated **August 1, 2025**._
