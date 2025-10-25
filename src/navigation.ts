@@ -89,5 +89,5 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/thackerbroadcasting' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
-  footNote: `<center>&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved<br>Last build: ${formattedDate}</center>`,
+  footNote: `<center>&copy 2025 Thacker Broadcasting • Site template by <a class="underline dark:text-muted" href="https://onwidget.com/">onWidget</a> • All rights reserved<br>Built ${formattedDate}</center>`,
 };

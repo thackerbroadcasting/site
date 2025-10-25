@@ -4,12 +4,12 @@ sidebar:
     order: 1
 ---
 
-We use a myriad of systems that are constantly changing. While we like to keep things consistent, we're always looking for ways to improve our current systems while giving our customers the best experience.
+We use a myriad of systems that are constantly changing. While we like to keep things consistent, we're always looking for ways to improve our current systems while giving our customers the best experience. Which is why we're heavily experienced in several systems, platforms, brands, and use cases.
 
 ## MSP
-This section could be very long if we listed every service that we utilize and their function. We'll suffice it to say that we utilize and manage through various brands, including but not limited to: Microsoft, Amazon, Google, Cisco, Ubiquiti, Debian, Ubuntu, Red Hat, Fedora, Avigilon, and Axis.
+This section could be very long if we listed every service that we utilize and their function. We'll suffice it to say that we utilize and manage various brands of products, including but not limited to products from companies like: [Microsoft](https://microsoft.com), [Amazon](https://aws.amazon.com), [Google](https://workspace.google.com/), [Freshworks](https://www.freshworks.com/), [Cisco](https://www.cisco.com/), [Ubiquiti](https://ui.com/), [Debian](https://www.debian.org/), [Ubuntu](https://ubuntu.com/), [Red Hat](https://www.redhat.com/), [Fedora](https://fedoraproject.org/), [Rocky Linux](https://rockylinux.org/), [AlmaLinux](https://almalinux.org/), [Avigilon](https://www.avigilon.com/), [Axis](https://www.axis.com/), and many more.
 
-For those interested in specific products from these vendors
+For those interested in specific products from these vendors, please visit their respective sites. If you're curious if we do (or would) support a specific system/brand, please reach out to us through our [contact page](../../contact).
 
 ## Broadcasting
 There are many broadcasting systems out there, each ranging in features and functionality. We use two main ones depending on the use-case: RadioDJ and AzuraCast. Both of these platforms run in our cloud environment in the location closest to their listener base. These vary in features and have specific use-cases.
