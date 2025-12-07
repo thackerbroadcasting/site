@@ -13,6 +13,7 @@
     --sl-color-gray-6: #272727;
     --sl-color-white: #fff;
     --list-marker-color: #ff8c21;
+    --sl-content-width: 60rem;
 }
 
 /* Light mode colors. */
@@ -52,17 +53,31 @@ article.card {
 }
 
 .starlight-aside--tip {
-    background: linear-gradient(45deg, #ff512f, #f09819);
+    background: linear-gradient(45deg, #7e0072, #971ae6);
     border: none;
     border-radius: 0.5rem;
     color: #66350c;
 }
 
 .starlight-aside--note {
-    background: linear-gradient(45deg, #00b4db, #2193b0);
+    background: linear-gradient(45deg, #007c98, #2db8db);
     border: none;
     border-radius: 0.5rem;
-    color: #004558;
+    color: #005d77;
+}
+
+.starlight-aside--caution {
+    background: linear-gradient(45deg, #ff512f, #f09819);
+    border: none;
+    border-radius: 0.5rem;
+    color: #005d77;
+}
+
+.starlight-aside--danger {
+    background: linear-gradient(45deg, #980005, #ff0e6f);
+    border: none;
+    border-radius: 0.5rem;
+    color: #77002e;
 }
 
 .starlight-aside__icon {
@@ -70,11 +85,35 @@ article.card {
 }
 
 .starlight-aside--tip .starlight-aside__title {
-    color: #ffe0c2;
+    color: #fac2ff;
+}
+
+.starlight-aside--tip .starlight-aside__content {
+    color: #fbeaff;
 }
 
 .starlight-aside--note .starlight-aside__title {
     color: #bbf3fef7;
+}
+
+.starlight-aside--note .starlight-aside__content {
+    color: #e7fbfff7;
+}
+
+.starlight-aside--caution .starlight-aside__title {
+    color: #ffe0c2;
+}
+
+.starlight-aside--caution .starlight-aside__content {
+    color: #fff4ea;
+}
+
+.starlight-aside--danger .starlight-aside__title {
+    color: #ffc5dc;
+}
+
+.starlight-aside--danger .starlight-aside__content {
+    color: #ffe7e8f7;
 }
 
 .sl-markdown-content ul:not(:where(.not-content *)) {
