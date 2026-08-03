@@ -7,9 +7,11 @@
   };
   (function() {
     if (typeof window.FreshworksWidget !== "function") {
-      const n = function() {
-        n.q.push(args);
-      };
+      class n {
+        constructor() {
+          n.q.push(args);
+        }
+      }
       n.q = [];
       window.FreshworksWidget = n;
     }
@@ -19,4 +21,5 @@
   src="https://widget.freshworks.com/widgets/157000001272.js"
   async
   defer
+  is:inline
 ></script>

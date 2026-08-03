@@ -1,4 +1,5 @@
-import { z, defineCollection } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 import { docsSchema } from '@astrojs/starlight/schema';
 
@@ -8,7 +9,7 @@ const metadataDefinition = () =>
       title: z.string().optional(),
       ignoreTitleTemplate: z.boolean().optional(),
 
-      canonical: z.string().url().optional(),
+      canonical: z.url().optional(),
 
       robots: z
         .object({
@@ -66,7 +67,12 @@ const postCollection = defineCollection({
   }),
 });
 
+const docsCollection = defineCollection({
+  loader: glob({ pattern: ['**/*.md', '**/*.mdx'], base: 'src/content/docs' }),
+  schema: docsSchema(),
+});
+
 export const collections = {
   post: postCollection,
-  docs: defineCollection({ schema: docsSchema() })
+  docs: docsCollection,
 };

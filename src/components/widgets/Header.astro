@@ -17,7 +17,7 @@ interface Link {
 }
 
 interface MenuLink extends Link {
-  links?: Array<MenuLink>;
+  links?: MenuLink[];
 }
 
 export interface Props {
@@ -34,16 +34,18 @@ export interface Props {
 
 const {
   id = 'header',
-  links = [],
-  actions = [],
+  links,
+  actions,
   isSticky = false,
   isDark = false,
   isFullWidth = false,
   showToggleTheme = false,
   //showRssFeed = false,
   position = 'center',
-} = Astro.props;
+} = Astro.props as Props;
 
+const navLinks: MenuLink[] = Array.isArray(links) ? links : [];
+const headerActions: CallToAction[] = Array.isArray(actions) ? actions : [];
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 ---
 
@@ -86,46 +88,54 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
         class="flex flex-col md:flex-row md:self-center w-full md:w-auto text-xl md:text-[0.9375rem] tracking-[0.01rem] font-medium md:justify-center"
       >
         {
-          links.map(({ text, href, links }) => (
-            <li class={links?.length ? 'dropdown' : ''}>
-              {links?.length ? (
-                <>
-                  <button
-                    type="button"
-                    class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap"
+          navLinks.map((item: MenuLink) => {
+            const { text, href, links: childLinks } = item;
+
+            return (
+              <li class={childLinks?.length ? 'dropdown' : ''}>
+                {childLinks?.length ? (
+                  <>
+                    <button
+                      type="button"
+                      class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap"
+                    >
+                      {text}{' '}
+                      <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
+                    </button>
+                    <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
+                      {childLinks.map((child: MenuLink) => {
+                        const { text: text2, href: href2 } = child;
+
+                        return (
+                          <li>
+                            <a
+                              class:list={[
+                                'first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap',
+                                { 'aw-link-active': href2 === currentPath },
+                              ]}
+                              href={href2}
+                            >
+                              {text2}
+                            </a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </>
+                ) : (
+                  <a
+                    class:list={[
+                      'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap',
+                      { 'aw-link-active': href === currentPath },
+                    ]}
+                    href={href}
                   >
-                    {text}{' '}
-                    <Icon name="tabler:chevron-down" class="w-3.5 h-3.5 ml-0.5 rtl:ml-0 rtl:mr-0.5 hidden md:inline" />
-                  </button>
-                  <ul class="dropdown-menu md:backdrop-blur-md dark:md:bg-dark rounded md:absolute pl-4 md:pl-0 md:hidden font-medium md:bg-white/90 md:min-w-[200px] drop-shadow-xl">
-                    {links.map(({ text: text2, href: href2 }) => (
-                      <li>
-                        <a
-                          class:list={[
-                            'first:rounded-t last:rounded-b md:hover:bg-gray-100 hover:text-link dark:hover:text-white dark:hover:bg-gray-700 py-2 px-5 block whitespace-no-wrap',
-                            { 'aw-link-active': href2 === currentPath },
-                          ]}
-                          href={href2}
-                        >
-                          {text2}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              ) : (
-                <a
-                  class:list={[
-                    'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap',
-                    { 'aw-link-active': href === currentPath },
-                  ]}
-                  href={href}
-                >
-                  {text}
-                </a>
-              )}
-            </li>
-          ))
+                    {text}
+                  </a>
+                )}
+              </li>
+            );
+          })
         }
       </ul>
     </nav>
@@ -152,9 +162,9 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
         }-->
         </div>
         {
-          actions?.length ? (
+          headerActions.length ? (
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
-              {actions.map((btnProps) => (
+              {headerActions.map((btnProps: CallToAction) => (
                 <Button {...btnProps} class="ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto" />
               ))}
             </span>

@@ -27,7 +27,7 @@ export default defineConfig({
   output: 'static',
 
   server: {
-    host: '0.0.0.0',
+    host: '127.0.0.1',
     port: 4321,
   },
 
@@ -71,22 +71,20 @@ export default defineConfig({
       lastUpdated: true,
       disable404Route: true,
       sidebar: [
-        { 
+        {
           label: 'Legal',
+          items: [{ autogenerate: { directory: 'legal' } }],
           collapsed: true,
-          autogenerate: { 
-            directory: '/legal' 
-          } 
         },
         {
           label: 'Platform Guides',
+          items: [{ autogenerate: { directory: 'platform-guides' } }],
           collapsed: true,
-          autogenerate: { directory: 'platform-guides' },
         },
         {
           label: 'Advanced',
+          items: [{ autogenerate: { directory: 'advanced' } }],
           collapsed: true,
-          autogenerate: { directory: 'advanced' },
         },
         {
           label: 'FAQs',
@@ -94,13 +92,9 @@ export default defineConfig({
         },
         {
           label: 'MSP',
+          items: [{ autogenerate: { directory: 'msp/policies' } }],
           collapsed: true,
-          items: [
-            { label: 'Policies',
-              autogenerate: { directory: '/msp/policies' },
-            },
-          ],
-        }
+        },
       ],
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/thackerbroadcasting' },
