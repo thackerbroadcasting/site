@@ -37,7 +37,7 @@ export const headerData = {
     { text: 'Contact', href: getPermalink('/contact') },
     { text: 'Blog', href: getBlogPermalink() }
   ],
-  actions: [{ text: 'Broadcasting Portal', href: 'https://live.thackerbroadcasting.com', target: '_blank' }],
+  //actions: [{ text: 'Broadcasting Portal', href: 'https://live.thackerbroadcasting.com', target: '_blank' }],
 };
 
 export const footerData = {
