@@ -45,8 +45,7 @@ export const footerData = {
     {
       title: 'Products',
       links: [
-        { text: 'Services', href: getPermalink('/services') },
-        { text: 'Listen', href: getPermalink('/listen') },
+        { text: 'Services', href: getPermalink('/services') }
       ],
     },
     {
