@@ -69,7 +69,7 @@ export default defineConfig({
       // syntax Tailwind v4 emits for breakpoints (`@media (width>=48rem)`) and
       // silently drops every one of those blocks — the site then renders as if
       // all `md:`/`lg:` classes were missing. lightningcss parses it correctly.
-      CSS: { lightningcss: { minify: true } },
+      CSS: false, //{ lightningcss: { minify: true } },
       HTML: {
         'html-minifier-terser': {
           removeAttributeQuotes: false,
