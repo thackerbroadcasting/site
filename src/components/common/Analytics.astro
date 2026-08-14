@@ -13,7 +13,6 @@ const scriptType = partytown ? 'text/partytown' : undefined;
     const d = document.getElementById('ga-init').dataset.id;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () {
-      // eslint-disable-next-line prefer-rest-params
       dataLayer.push(arguments);
     };
     window.gtag('js', new Date());
